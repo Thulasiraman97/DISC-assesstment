@@ -1,0 +1,940 @@
+{
+    "D": {
+        "behavioralOverview": "Your profile reveals a commanding presence characterized by decisive action, direct communication, and an unwavering focus on forward movement. You possess a natural ability to cut through complexity and ambiguity, bringing clarity and structure to situations that others might find overwhelming. Your approach to work is marked by a strong results orientation—you don't just identify what needs to be done, you take immediate action to make it happen. In professional settings, you're often the person who steps up when leadership is needed, whether formally or informally. You have an innate comfort with challenge and competition, viewing obstacles not as barriers but as opportunities to demonstrate capability and drive progress. Your confidence in your own judgment allows you to make tough calls quickly, even with incomplete information, and you're willing to take calculated risks that others might shy away from. This decisive nature, combined with your focus on tangible outcomes, makes you a powerful force in any organization that values achievement, innovation, and rapid execution.",
+        "coreStrengths": [
+            {
+                "title": "Strategic Leadership and Vision",
+                "desc": "You excel at seeing the big picture and charting a clear path forward. Your ability to establish direction and rally others around ambitious goals creates momentum that transforms vision into reality. You naturally assume leadership roles and inspire confidence through your decisiveness and clarity of purpose."
+            },
+            {
+                "title": "Decisive Problem-Solving Under Pressure",
+                "desc": "When faced with complex challenges or time-sensitive situations, you demonstrate remarkable composure and analytical speed. You can quickly assess multiple variables, identify the most critical factors, and make sound decisions even when the stakes are high. This ability to maintain focus and take action during crisis situations makes you invaluable in high-pressure environments."
+            },
+            {
+                "title": "Results-Driven Execution",
+                "desc": "You possess an exceptional ability to translate strategy into action and maintain relentless focus on achieving measurable outcomes. Your goal-oriented mindset ensures that projects don't just get started—they get finished. You hold yourself and others accountable to high standards of performance and delivery."
+            },
+            {
+                "title": "Competitive Drive and Achievement Orientation",
+                "desc": "You thrive in competitive environments and are motivated by challenges that allow you to test your capabilities. This competitive spirit pushes you to continuously improve, innovate, and exceed expectations. You set ambitious targets and derive satisfaction from surpassing them."
+            },
+            {
+                "title": "Efficiency and Time Management",
+                "desc": "You have a natural talent for identifying the most direct path to a goal and eliminating unnecessary steps or processes. Your focus on efficiency helps teams work smarter, not just harder, and ensures that resources are allocated to maximum effect."
+            },
+            {
+                "title": "Change Leadership and Innovation",
+                "desc": "You're not intimidated by change—you often initiate it. Your willingness to challenge the status quo and push for better ways of doing things drives organizational innovation and keeps teams from becoming complacent or stagnant."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Direct and Unambiguous Expression",
+                "desc": "You communicate with remarkable clarity and directness, preferring to get straight to the point rather than engaging in lengthy preambles. Your communication style eliminates confusion and ensures that everyone understands exactly what's expected. You value honesty and transparency, even when delivering difficult messages."
+            },
+            {
+                "title": "Action-Oriented Dialogue",
+                "desc": "Your conversations naturally gravitate toward solutions, next steps, and concrete actions. You have little patience for theoretical discussions that don't lead to practical outcomes. When you communicate, you're focused on what needs to happen and who will make it happen."
+            },
+            {
+                "title": "Confident and Assertive Delivery",
+                "desc": "You speak with conviction and authority, which helps establish credibility and command attention. Your assertive communication style ensures your ideas are heard and considered, and it often helps teams make faster decisions by cutting through indecision or debate."
+            },
+            {
+                "title": "Bottom-Line Focus",
+                "desc": "You excel at distilling complex information down to its essential elements and communicating the key takeaways. This ability to summarize and prioritize helps busy stakeholders quickly grasp what matters most and make informed decisions."
+            },
+            {
+                "title": "Challenge and Debate",
+                "desc": "You're comfortable with constructive conflict and often use challenging questions to test ideas and strengthen proposals. While this can lead to robust discussions and better outcomes, it's important to ensure others don't perceive this as confrontational."
+            }
+        ],
+        "developmentOpportunities": [
+            "Cultivating Inclusive Decision-Making: While your ability to make quick decisions is valuable, involving team members earlier in the decision-making process can increase buy-in, surface important perspectives you might have missed, and develop the decision-making capabilities of others. Consider creating structured opportunities for input before finalizing major decisions.",
+            "Balancing Speed with Thoroughness: Your natural pace is fast, which drives results but can sometimes lead to overlooking important details or rushing past necessary analysis. Building in checkpoints for quality review and stakeholder alignment can prevent costly mistakes and rework while still maintaining momentum.",
+            "Developing Active Listening Skills: Your focus on action and outcomes can sometimes cause you to move past others' concerns or ideas too quickly. Practicing active listening—truly hearing and acknowledging others' perspectives before responding—can strengthen relationships, uncover valuable insights, and increase team engagement.",
+            "Softening Communication for Different Audiences: Your direct communication style is efficient but can sometimes be perceived as blunt or insensitive, particularly by those who prefer more relationship-oriented interaction. Adapting your delivery to include more context, acknowledgment of others' contributions, and consideration of emotional impact can enhance your influence.",
+            "Patience with Process and People: Not everyone operates at your pace or shares your comfort with rapid change. Developing greater patience with those who need more time to process information, ask questions, or adjust to new directions will improve team cohesion and reduce resistance to your initiatives.",
+            "Embracing Collaborative Problem-Solving: While you're capable of solving problems independently, creating space for collaborative problem-solving can lead to more innovative solutions and stronger team capability. Consider when to step back and facilitate rather than direct.",
+            "Attention to Relationship Maintenance: Your task focus can sometimes overshadow the importance of relationship building and maintenance. Investing time in understanding team members' motivations, concerns, and aspirations—beyond their work output—can significantly enhance your leadership effectiveness."
+        ],
+        "workplacePreferences": [
+            "Autonomy and Authority: You perform best in environments that grant you significant decision-making authority and freedom to execute your vision without excessive oversight. Micromanagement or bureaucratic constraints can be particularly frustrating and limiting to your effectiveness.",
+            "Results-Oriented Culture: You thrive in organizations that measure success by outcomes rather than process, where achievement is recognized and rewarded. Cultures that value innovation, efficiency, and continuous improvement align well with your natural drive.",
+            "Fast-Paced and Dynamic Settings: You excel in environments characterized by rapid change, competitive pressure, and ambitious goals. Slow-moving, highly stable environments may feel stifling and fail to fully utilize your capabilities.",
+            "Clear Expectations and Accountability: While you value autonomy, you also appreciate clarity around goals, metrics, and expectations. You want to know what success looks like and have the freedom to determine how to achieve it.",
+            "Opportunities for Advancement and Challenge: You're motivated by environments that offer clear paths for growth, increasing responsibility, and new challenges. Stagnation or lack of advancement opportunity can lead to disengagement.",
+            "Direct Communication Culture: You prefer organizational cultures where straight talk is valued, feedback is direct, and political maneuvering is minimized. You appreciate environments where people say what they mean and mean what they say."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Driving Force and Momentum Builder",
+            "description": "In team settings, you naturally assume the role of driving force—the person who ensures the team maintains focus, meets deadlines, and achieves its objectives. You excel at breaking through analysis paralysis and moving teams from discussion to action. Your decisiveness and willingness to take charge are particularly valuable during times of uncertainty or crisis when teams need clear direction. You help establish priorities, push for accountability, and maintain a sense of urgency that keeps projects on track. However, your effectiveness as a team member is enhanced when you balance this drive with genuine collaboration—seeking input from others, acknowledging their contributions, and ensuring that your push for results doesn't inadvertently shut down valuable discussion or creative exploration. The most effective version of your collaborative style combines your natural leadership and results focus with intentional efforts to include, empower, and develop others on the team."
+        },
+        "careerAlignment": "Your profile is exceptionally well-suited for roles that require strategic leadership, decisive action, and results-driven execution. You excel in positions such as: Executive Leadership (CEO, COO, General Manager) where you can set organizational direction and drive performance; Entrepreneurship and Business Development where your risk tolerance and competitive drive are assets; Operations Management and Project Leadership where your focus on efficiency and execution delivers results; Sales Leadership and Business Strategy roles where your competitive nature and goal orientation thrive; Crisis Management and Turnaround Leadership where your ability to make tough decisions under pressure is critical; and Consulting or Advisory roles where you can leverage your strategic thinking and problem-solving abilities across multiple challenges. You're most fulfilled in roles that offer increasing responsibility, measurable impact, and the opportunity to shape outcomes rather than simply execute others' directives. Positions that require extensive collaboration without clear authority, highly detailed administrative work, or slow-paced environments with limited autonomy may not fully leverage your strengths.",
+        "adaptabilityInsight": "Your greatest opportunity for expanding your influence lies in developing situational leadership—the ability to flex your natural style based on the needs of the situation and the people involved. While your decisive, direct approach is highly effective in many contexts, some situations call for a more consultative, patient, or relationship-focused approach. Learning to read these situations and adapt accordingly will significantly enhance your effectiveness. This might mean slowing down to build consensus on critical decisions, softening your communication style when working with more sensitive team members, or stepping back to let others lead when it serves their development. The goal isn't to abandon your natural strengths but to expand your repertoire so you can choose the most effective approach for each situation. Additionally, developing greater emotional intelligence—particularly in reading and responding to others' emotional states and needs—will help you build stronger relationships and reduce unnecessary friction. Remember that influence isn't just about being right or moving fast; it's about bringing people along with you in a way that builds their commitment and capability.",
+        "summaryProfile": "D → Decisive Leadership & Results Achievement\n\nYou are a natural leader who drives results through decisive action, strategic thinking, and unwavering focus on outcomes. Your ability to take charge, make tough calls, and push through obstacles makes you invaluable in fast-paced, competitive environments. You excel at transforming vision into reality and maintaining momentum even in challenging circumstances. Your direct communication style and confidence inspire others to follow your lead and commit to ambitious goals. To maximize your impact, focus on balancing your drive for results with inclusive collaboration, adapting your pace and style to different situations and people, and investing in relationship building alongside task completion. When you combine your natural strengths with greater flexibility and emotional intelligence, you become an exceptionally powerful and respected leader."
+    },
+    "I": {
+        "behavioralOverview": "Your profile reveals a vibrant, people-centered approach to work and life, characterized by enthusiasm, optimism, and a genuine love of human connection. You possess a remarkable ability to energize those around you, bringing warmth, creativity, and positive momentum to any environment you enter. Your natural charisma and expressive communication style make you highly influential—people are drawn to your energy and inspired by your vision. You excel at building relationships quickly, creating networks of connections that span across organizational boundaries and social circles. In professional settings, you're often the person who lifts team morale, generates excitement around new initiatives, and helps others see possibilities rather than limitations. Your optimistic outlook isn't naive; it's a powerful tool that helps teams push through challenges and maintain motivation even when facing setbacks. You have an intuitive understanding of people—their motivations, concerns, and aspirations—which allows you to communicate in ways that resonate emotionally and inspire action. Your creativity and innovative thinking bring fresh perspectives to problem-solving, and your willingness to take risks on new ideas often leads to breakthrough solutions. You thrive on variety, interaction, and the opportunity to make a visible impact through your ideas and influence.",
+        "coreStrengths": [
+            {
+                "title": "Inspirational Communication and Persuasion",
+                "desc": "You have an exceptional gift for articulating ideas in compelling, emotionally resonant ways that move people to action. Your ability to paint vivid pictures of possibilities, connect concepts to people's values and aspirations, and communicate with genuine enthusiasm makes you highly persuasive. You don't just inform—you inspire, motivate, and create genuine excitement around shared goals."
+            },
+            {
+                "title": "Relationship Building and Networking",
+                "desc": "You excel at creating and maintaining extensive networks of professional and personal relationships. Your genuine interest in people, combined with your warm and approachable demeanor, helps you build trust and rapport quickly. You remember details about people's lives, make them feel valued, and create connections that often prove invaluable for collaboration, problem-solving, and opportunity creation."
+            },
+            {
+                "title": "Optimism and Positive Energy",
+                "desc": "Your naturally optimistic outlook and high energy level are contagious, lifting the spirits of those around you even in challenging circumstances. You have a remarkable ability to reframe setbacks as learning opportunities, maintain hope when others feel discouraged, and keep teams focused on possibilities rather than problems. This positive energy is not superficial—it's a genuine strength that helps teams persevere and maintain creativity under pressure."
+            },
+            {
+                "title": "Creative Innovation and Ideation",
+                "desc": "You bring fresh, innovative thinking to problem-solving, often seeing connections and possibilities that others miss. Your creativity isn't limited to artistic pursuits—it extends to finding novel solutions to business challenges, developing new approaches to old problems, and imagining future possibilities. Your willingness to think outside conventional boundaries often leads to breakthrough ideas."
+            },
+            {
+                "title": "Collaborative Team Building",
+                "desc": "You have a natural talent for bringing people together, fostering collaboration, and creating inclusive team environments where everyone feels valued. Your enthusiasm for collective achievement and your ability to recognize and celebrate others' contributions help build strong, cohesive teams. You excel at breaking down silos and encouraging cross-functional collaboration."
+            },
+            {
+                "title": "Adaptability and Flexibility",
+                "desc": "You thrive in dynamic, changing environments and adapt quickly to new situations, people, and challenges. Your comfort with ambiguity and your ability to pivot when circumstances change make you valuable in fast-paced, evolving organizations. You see change as opportunity rather than threat."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Expressive and Emotionally Engaging",
+                "desc": "You communicate with remarkable expressiveness, using storytelling, emotion, and vivid language to capture attention and create memorable messages. Your animated delivery style, whether in person or in writing, makes your communication engaging and impactful. You have a gift for making complex or dry topics interesting and accessible through your enthusiasm and creative framing."
+            },
+            {
+                "title": "Persuasive Storytelling",
+                "desc": "You excel at framing ideas as compelling narratives that resonate with your audience's values, aspirations, and emotions. Rather than relying solely on data and logic, you understand that people are moved by stories that help them see themselves in a better future. Your ability to craft and deliver these narratives makes you highly influential in gaining buy-in and inspiring action."
+            },
+            {
+                "title": "Approachable and Inclusive",
+                "desc": "Your warm, open communication style makes you highly approachable and creates psychological safety for others to share ideas, concerns, and feedback. You actively invite participation, make people feel heard and valued, and create dialogue rather than monologue. This inclusive approach builds trust and encourages collaboration."
+            },
+            {
+                "title": "Enthusiastic Advocacy",
+                "desc": "When you believe in an idea, person, or initiative, you become its passionate advocate, using your influence and communication skills to generate support and momentum. Your genuine enthusiasm is infectious and often helps overcome skepticism or resistance. You're skilled at building coalitions and rallying people around shared causes."
+            },
+            {
+                "title": "Relationship-Oriented Interaction",
+                "desc": "You prioritize building and maintaining relationships in your communication, taking time to connect on a personal level before diving into business matters. You remember personal details, ask about people's well-being, and create human connection that strengthens professional relationships and enhances collaboration."
+            }
+        ],
+        "developmentOpportunities": [
+            "Strengthening Follow-Through and Execution: Your strength in generating ideas and enthusiasm can sometimes outpace your focus on detailed implementation. Developing systems and habits that ensure consistent follow-through—such as detailed project plans, accountability partners, or structured check-ins—will help ensure your great ideas translate into completed initiatives. Consider partnering with detail-oriented colleagues who can complement your visionary strengths.",
+            "Balancing Expression with Active Listening: Your natural expressiveness and enthusiasm can sometimes lead to dominating conversations or moving on before fully hearing others' perspectives. Practicing active listening—pausing to truly hear and understand before responding, asking clarifying questions, and creating space for quieter voices—will deepen your relationships and uncover valuable insights you might otherwise miss.",
+            "Incorporating Data and Objectivity: While your intuitive, people-focused approach is valuable, some situations require more analytical, data-driven decision-making. Developing comfort with quantitative analysis, seeking out objective metrics to validate your intuitions, and balancing emotional intelligence with logical evaluation will strengthen your decision-making and increase your credibility with analytically-minded stakeholders.",
+            "Managing Commitments and Priorities: Your enthusiasm and desire to help can lead to over-commitment, saying yes to too many projects or requests and spreading yourself too thin. Learning to evaluate opportunities against your core priorities, becoming comfortable saying no or 'not now,' and being realistic about your capacity will help you maintain quality and avoid burnout.",
+            "Developing Patience with Process and Detail: Your preference for big-picture thinking and rapid movement can sometimes lead to impatience with necessary processes, procedures, or detailed work. Recognizing that some situations require methodical, step-by-step approaches and developing greater tolerance for this work will enhance your effectiveness, particularly in regulated industries or complex technical projects.",
+            "Building Resilience to Criticism: Your people-focused nature and desire for approval can make critical feedback feel particularly painful. Developing the ability to separate personal worth from professional feedback, viewing criticism as information rather than rejection, and using it constructively for growth will strengthen your resilience and accelerate your development.",
+            "Maintaining Focus Amid Variety: Your love of variety and new experiences can sometimes lead to starting many things without finishing them, or losing focus on core priorities. Developing strategies to maintain sustained attention on key initiatives—even when they become routine or less exciting—will significantly enhance your impact and credibility."
+        ],
+        "workplacePreferences": [
+            "Collaborative and Social Environments: You thrive in settings that emphasize teamwork, interaction, and relationship building. Open office layouts, team-based projects, and cultures that value collaboration align well with your strengths. Isolated or highly independent work can feel draining and fail to leverage your people skills.",
+            "Dynamic and Varied Work: You excel in roles that offer variety, new challenges, and opportunities to work on different projects or with different people. Repetitive, routine work or highly specialized roles that lack diversity can feel stifling. You're energized by environments where no two days are exactly alike.",
+            "Recognition and Appreciation: You're motivated by environments that recognize and celebrate achievements, both publicly and privately. Cultures that acknowledge contributions, provide positive feedback, and create opportunities for visibility align with your need for affirmation and impact.",
+            "Creative Freedom and Innovation: You perform best when given latitude to approach problems creatively, experiment with new ideas, and challenge conventional thinking. Overly rigid, rule-bound environments that discourage innovation can feel constraining and demotivating.",
+            "People-Centered Cultures: Organizations that genuinely value people, prioritize employee well-being, and emphasize the human side of business resonate with your values. You're drawn to cultures that see employees as whole people, not just resources.",
+            "Opportunities for Influence and Impact: You're energized by roles where you can see the direct impact of your work on people and outcomes. Positions that allow you to influence decisions, shape direction, and make a visible difference are particularly fulfilling."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Energizer and Relationship Catalyst",
+            "description": "In team settings, you naturally assume the role of energizer and relationship builder—the person who lifts morale, fosters connection, and helps the team maintain enthusiasm and cohesion. Your ability to read emotional dynamics, recognize when team members are struggling or disengaged, and intervene with encouragement or support makes you invaluable for team health and productivity. You excel at breaking the ice in new teams, helping diverse personalities find common ground, and creating an inclusive environment where everyone feels valued. Your optimism and creative thinking often help teams break through impasses or see new possibilities when they're stuck. You're skilled at recognizing and celebrating team wins, both large and small, which reinforces positive momentum and motivation. However, your effectiveness as a team member is enhanced when you balance your natural enthusiasm with attention to follow-through, ensuring that the excitement you generate translates into completed work. Additionally, being mindful of creating space for quieter team members to contribute and balancing your ideas with active listening to others' perspectives will strengthen your collaborative impact. The most effective version of your team style combines your natural gifts for inspiration and connection with disciplined execution and genuine collaboration."
+        },
+        "careerAlignment": "Your profile is exceptionally well-suited for roles that leverage your communication skills, relationship-building abilities, and creative thinking. You excel in positions such as: Sales and Business Development where your persuasive communication and relationship skills drive revenue; Marketing, Brand Management, and Public Relations where your creativity and ability to craft compelling narratives create impact; Human Resources and Talent Development where your people focus and ability to inspire support organizational culture and growth; Training and Development where your engaging communication style and enthusiasm for helping others learn create powerful educational experiences; Customer Success and Account Management where your relationship skills and problem-solving abilities ensure client satisfaction; Consulting and Advisory roles where your ability to understand people, build trust, and communicate recommendations persuasively adds value; Event Planning and Community Building where your organizational skills and people focus create memorable experiences; and Entrepreneurship and Innovation roles where your creativity, risk tolerance, and ability to inspire others support new venture creation. You're most fulfilled in roles that offer variety, human interaction, creative freedom, and the opportunity to make a visible positive impact on people and organizations. Positions that require extensive solitary work, highly repetitive tasks, or purely analytical work without human interaction may not fully leverage your strengths.",
+        "adaptabilityInsight": "Your greatest opportunity for expanding your effectiveness lies in developing what might be called 'disciplined creativity'—the ability to channel your natural enthusiasm, creativity, and people focus through more structured, systematic approaches when situations require it. While your spontaneous, intuitive style serves you well in many contexts, some situations demand more methodical planning, detailed execution, and data-driven decision-making. Learning to recognize these situations and adapt your approach accordingly will significantly enhance your impact and credibility. This might mean forcing yourself to create detailed project plans before launching into execution, building in time for thorough analysis before making important decisions, or partnering with more detail-oriented colleagues who can complement your strengths. Additionally, developing greater comfort with constructive conflict and difficult conversations will enhance your leadership effectiveness. Your natural desire for harmony and approval can sometimes lead you to avoid necessary confrontations or sugarcoat feedback that needs to be direct. Learning to deliver difficult messages with both compassion and clarity, and to engage in healthy debate without taking disagreement personally, will strengthen your relationships and impact. Remember that true influence isn't just about being liked—it's about being respected for your judgment, reliability, and willingness to address challenges directly when necessary.",
+        "summaryProfile": "I → Inspirational Influence & Relationship Excellence\n\nYou are a natural communicator and relationship builder who energizes teams and inspires action through your enthusiasm, creativity, and genuine care for people. Your ability to connect with others, articulate compelling visions, and maintain optimism even in challenging circumstances makes you invaluable in roles that require influence, collaboration, and innovation. You excel at bringing people together, generating excitement around shared goals, and creating positive, inclusive environments where people thrive. Your creative thinking and willingness to challenge conventional approaches often lead to breakthrough ideas and solutions. To maximize your impact, focus on strengthening your follow-through and execution, balancing your natural expressiveness with active listening, incorporating more data and structure into your decision-making, and developing greater comfort with necessary conflict and difficult conversations. When you combine your natural gifts for inspiration and connection with disciplined execution and analytical rigor, you become an exceptionally powerful force for positive change and achievement."
+    },
+    "S": {
+        "behavioralOverview": "Your profile reveals a steady, dependable presence characterized by patience, loyalty, and a genuine commitment to supporting others and maintaining stability. You possess a remarkable ability to create calm in the midst of chaos, providing a stabilizing influence that helps teams navigate change and uncertainty with greater confidence. Your approach to work is marked by consistency, reliability, and a deep sense of responsibility—when you commit to something, people know they can count on you to follow through. In professional settings, you're often the person who keeps things running smoothly behind the scenes, ensuring that processes are maintained, relationships are nurtured, and team members feel supported. You have an exceptional ability to listen deeply, understand others' needs and concerns, and respond with empathy and practical support. Your patient, methodical approach to work ensures quality and thoroughness, and your preference for harmony helps prevent and resolve conflicts before they escalate. You excel in environments where you can build long-term relationships, contribute to team success, and see the tangible results of your steady, consistent efforts. Your loyalty to people and organizations runs deep, and you take genuine satisfaction in being someone others can depend on.",
+        "coreStrengths": [
+            {
+                "title": "Unwavering Reliability and Follow-Through",
+                "desc": "You are exceptionally dependable, consistently delivering on commitments and maintaining high standards of quality and consistency. People know that when you say you'll do something, it will get done—and done well. This reliability makes you invaluable to teams and organizations that depend on consistent execution and trustworthy performance."
+            },
+            {
+                "title": "Patient and Supportive Collaboration",
+                "desc": "You have a natural gift for supporting others, whether through patient mentoring, collaborative problem-solving, or simply being a steady, reassuring presence. You genuinely care about your colleagues' success and well-being, and you're willing to invest time and energy in helping them succeed. This supportive nature builds strong, loyal relationships and creates positive team dynamics."
+            },
+            {
+                "title": "Active Listening and Empathy",
+                "desc": "You excel at truly hearing what others are saying—not just the words, but the underlying concerns, needs, and emotions. Your empathetic listening makes people feel valued and understood, which builds trust and opens channels for honest communication. This skill is particularly valuable in resolving conflicts, understanding customer needs, and building strong working relationships."
+            },
+            {
+                "title": "Calm Under Pressure and Emotional Stability",
+                "desc": "You maintain remarkable composure even in stressful or chaotic situations, providing a stabilizing influence that helps others stay focused and productive. Your even temperament and ability to remain calm when others are anxious or reactive makes you a valuable anchor during organizational change, crisis situations, or high-pressure periods."
+            },
+            {
+                "title": "Process Excellence and Quality Focus",
+                "desc": "You have a natural appreciation for well-designed processes and systems, and you excel at following them consistently to ensure quality outcomes. Your methodical, thorough approach to work minimizes errors and ensures that nothing important falls through the cracks. You understand that sustainable success comes from consistent execution, not just brilliant ideas."
+            },
+            {
+                "title": "Loyalty and Long-Term Commitment",
+                "desc": "You build deep, lasting relationships with colleagues, customers, and organizations. Your loyalty isn't superficial—it's based on genuine care and a long-term perspective. This commitment creates stability and continuity that benefits teams and organizations, particularly in roles that require sustained relationship building and institutional knowledge."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Patient and Considerate Expression",
+                "desc": "You communicate with thoughtfulness and consideration, taking time to ensure your message is clear and respectful. You're naturally attuned to how your words might affect others, and you adjust your delivery to minimize conflict and maintain positive relationships. This considerate approach creates psychological safety and encourages open dialogue."
+            },
+            {
+                "title": "Active Listening Before Speaking",
+                "desc": "You prioritize understanding before being understood, taking time to fully hear and process others' perspectives before formulating your response. This listening-first approach not only helps you communicate more effectively but also makes others feel valued and respected. You ask clarifying questions and reflect back what you've heard to ensure mutual understanding."
+            },
+            {
+                "title": "Calm and Reassuring Tone",
+                "desc": "Your communication style naturally puts others at ease. Whether delivering difficult news, navigating conflict, or simply discussing routine matters, your calm, steady demeanor helps reduce anxiety and create productive conversations. People often seek you out when they need someone who will listen without judgment and respond with balanced perspective."
+            },
+            {
+                "title": "Diplomatic Conflict Resolution",
+                "desc": "When conflicts arise, you excel at finding middle ground and facilitating resolution in ways that preserve relationships. You're skilled at acknowledging all perspectives, identifying common ground, and proposing solutions that address everyone's core concerns. Your non-confrontational approach helps de-escalate tensions and move toward productive outcomes."
+            },
+            {
+                "title": "Preference for One-on-One or Small Group Interaction",
+                "desc": "You often communicate most effectively in smaller, more intimate settings where you can build genuine connection and have deeper conversations. While you can certainly function in large group settings, you tend to make your greatest impact through individual relationships and small team interactions where your listening skills and personal touch can shine."
+            }
+        ],
+        "developmentOpportunities": [
+            "Embracing and Initiating Change: Your natural preference for stability can sometimes lead to resistance to necessary change or reluctance to suggest improvements. Developing greater comfort with change—recognizing it as an opportunity for growth rather than a threat to stability—will enhance your adaptability and career advancement. Practice initiating small changes and observing positive outcomes to build confidence.",
+            "Asserting Needs and Boundaries: Your desire to support others and maintain harmony can sometimes lead you to prioritize others' needs over your own, potentially leading to burnout or resentment. Learning to clearly articulate your own needs, set healthy boundaries, and say no when appropriate will actually enhance your ability to support others sustainably. Remember that self-care enables better care for others.",
+            "Accelerating Decision-Making: Your preference for careful consideration and consensus-building can sometimes slow decision-making in situations that require faster action. Developing comfort with making decisions with incomplete information, trusting your judgment, and accepting that not every decision requires full consensus will increase your effectiveness in fast-paced environments.",
+            "Engaging in Constructive Conflict: Your conflict-avoidant nature, while often beneficial for maintaining harmony, can sometimes prevent necessary conversations or allow problems to fester. Learning to view constructive conflict as a tool for improvement rather than something to avoid, and developing skills for addressing issues directly but diplomatically, will strengthen your leadership capabilities.",
+            "Increasing Visibility and Self-Promotion: Your humble, behind-the-scenes approach to work means your contributions may sometimes go unrecognized. Learning to appropriately share your achievements, speak up in meetings, and ensure your work is visible to decision-makers will support your career advancement and ensure you receive appropriate recognition and opportunities.",
+            "Expanding Comfort Zone: Your preference for familiar routines and proven approaches can sometimes limit your exposure to new ideas, skills, or opportunities. Intentionally seeking out new experiences, learning opportunities, and challenges—even when they feel uncomfortable—will accelerate your growth and expand your capabilities.",
+            "Developing Strategic Perspective: Your focus on day-to-day execution and supporting others can sometimes cause you to lose sight of bigger-picture strategy and long-term goals. Regularly stepping back to consider strategic implications, long-term trends, and how your work connects to organizational objectives will enhance your value and prepare you for more senior roles."
+        ],
+        "workplacePreferences": [
+            "Stable and Predictable Environments: You thrive in organizations and roles that offer consistency, clear expectations, and minimal chaos. Environments with frequent upheaval, constant reorganization, or unpredictable demands can be draining and prevent you from doing your best work. You perform optimally when you can develop routines, build expertise, and see the results of sustained effort.",
+            "Team-Oriented and Collaborative Cultures: You excel in settings that emphasize cooperation, mutual support, and collective success over individual competition. Cultures that value teamwork, recognize collaborative contributions, and create opportunities for building strong working relationships align perfectly with your strengths. Highly competitive or individualistic environments may feel uncomfortable and fail to leverage your collaborative gifts.",
+            "Supportive Leadership and Management: You perform best under leaders who provide clear direction, regular feedback, and genuine support for your development. You appreciate managers who take time to understand your strengths and concerns, who recognize your contributions, and who create psychological safety. Micromanagement or harsh, critical leadership styles can be particularly demotivating.",
+            "Clear Processes and Defined Roles: You value environments where expectations, processes, and roles are well-defined and consistently applied. Ambiguity and constantly shifting priorities can be stressful and make it difficult for you to deliver your best work. You appreciate organizations that invest in creating clear systems and maintaining them over time.",
+            "Opportunities for Deep Expertise: You're energized by roles that allow you to develop deep expertise and mastery over time rather than constantly jumping between different areas. Positions that value specialized knowledge, allow for continuous improvement, and reward sustained excellence align well with your strengths.",
+            "Relationship-Focused Work: You thrive in roles where building and maintaining relationships is central to success—whether with customers, colleagues, or other stakeholders. Work that is purely transactional or that doesn't allow for meaningful human connection may feel unsatisfying.",
+            "Reasonable Pace and Work-Life Balance: While you're certainly capable of working hard and handling pressure, you perform best in environments that maintain sustainable pace and respect work-life boundaries. Organizations that chronically overwork employees or create constant crisis may lead to burnout and diminish your effectiveness."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Stabilizing Force and Harmony Builder",
+            "description": "In team settings, you naturally assume the role of stabilizer and harmony builder—the person who keeps the team grounded, maintains positive relationships, and ensures everyone feels supported and included. Your ability to listen to all perspectives, mediate subtle tensions before they escalate, and create an atmosphere of trust and cooperation makes you invaluable for team cohesion and long-term success. You excel at noticing when team members are struggling or feeling left out and intervening with quiet support and encouragement. Your consistent, reliable presence provides continuity and institutional memory that helps teams navigate change and maintain quality standards. You're often the person who remembers important details about team members' lives, celebrates milestones, and maintains the human connections that make teams more than just collections of individuals. Your preference for consensus and your skill at finding common ground help teams make decisions that everyone can support, even if they're not everyone's first choice. However, your effectiveness as a team member is enhanced when you balance your natural supportiveness with appropriate assertiveness—ensuring your own valuable insights and concerns are heard, not just those of others. Additionally, developing greater comfort with necessary conflict and being willing to challenge ideas or approaches when needed (even if it creates temporary discomfort) will strengthen your contribution. The most effective version of your collaborative style combines your natural gifts for stability and support with strategic assertiveness and willingness to engage in constructive debate when it serves the team's best interests."
+        },
+        "careerAlignment": "Your profile is exceptionally well-suited for roles that value consistency, relationship building, and supportive collaboration. You excel in positions such as: Customer Service and Client Relations where your patience, empathy, and relationship skills create loyal customers and solve complex problems; Healthcare and Caregiving roles where your supportive nature and attention to detail ensure quality patient care; Human Resources and Employee Relations where your listening skills and diplomatic approach support organizational culture and employee well-being; Administrative and Operations Support where your reliability and process excellence keep organizations running smoothly; Project Coordination and Team Support where your organizational skills and collaborative nature facilitate successful project delivery; Account Management and Customer Success where your relationship focus and problem-solving abilities ensure client satisfaction and retention; Training and Development (particularly one-on-one coaching) where your patience and supportive approach help others learn and grow; Quality Assurance and Process Improvement where your attention to detail and commitment to excellence ensure consistent quality; and Library Sciences, Research Support, or Information Management where your methodical approach and service orientation add value. You're most fulfilled in roles that offer stability, allow you to build long-term relationships, provide opportunities to support others' success, and recognize consistent, quality execution. Positions that require constant change, high-pressure sales with aggressive targets, or highly competitive individual contributor roles may not fully leverage your strengths or align with your values.",
+        "adaptabilityInsight": "Your greatest opportunity for expanding your impact lies in developing what might be called 'confident assertiveness'—the ability to speak up for your ideas, needs, and concerns with the same care and consideration you show when supporting others. While your supportive, harmony-seeking nature is a tremendous strength, some situations require more direct advocacy, faster decision-making, or willingness to create temporary discomfort in service of better long-term outcomes. Learning to recognize these situations and adapt your approach accordingly will significantly enhance your effectiveness and career advancement. This might mean speaking up earlier in meetings with your ideas rather than waiting to be asked, advocating more strongly for resources or changes you believe are necessary, or addressing performance or behavior issues more directly rather than hoping they'll resolve on their own. Additionally, developing greater comfort with change and uncertainty will expand your opportunities and reduce stress. While you'll likely always prefer stability, learning to see change as an opportunity for growth, developing strategies for managing transition anxiety, and even occasionally initiating beneficial changes will make you more resilient and valuable in today's dynamic work environments. Remember that your natural strengths of reliability, empathy, and relationship building are tremendously valuable—the goal isn't to become someone else, but to expand your repertoire so you can choose the most effective approach for each situation. When you combine your natural gifts for stability and support with strategic assertiveness and adaptability, you become an exceptionally powerful and respected professional.",
+        "summaryProfile": "S → Steadfast Support & Reliable Excellence\n\nYou are a dependable, patient professional who creates stability and supports others through your consistency, empathy, and genuine care. Your ability to listen deeply, maintain calm under pressure, and deliver reliable results makes you invaluable in roles that require sustained relationship building and quality execution. You excel at creating harmonious team environments where people feel valued and supported, and your methodical approach ensures that important details never fall through the cracks. Your loyalty and long-term commitment create continuity and institutional knowledge that benefits organizations significantly. To maximize your impact, focus on developing greater assertiveness in expressing your needs and ideas, increasing your comfort with necessary change and conflict, accelerating your decision-making when situations require it, and ensuring your valuable contributions receive appropriate visibility and recognition. When you combine your natural gifts for stability and support with strategic assertiveness and adaptability, you become an exceptionally valuable and respected team member and leader."
+    },
+    "C": {
+        "behavioralOverview": "Your profile reveals a thoughtful, analytical mind characterized by precision, systematic thinking, and an unwavering commitment to quality and accuracy. You possess a remarkable ability to see patterns, identify potential problems before they occur, and design solutions that are both elegant and effective. Your approach to work is marked by thoroughness, objectivity, and high standards—you don't just want to get things done, you want to get them done right. In professional settings, you're often the person who asks the critical questions others miss, catches errors before they become costly problems, and ensures that decisions are based on solid data and logical analysis rather than assumptions or emotions. You have an exceptional capacity for deep focus and complex problem-solving, able to work through intricate details and technical challenges that might overwhelm others. Your systematic approach to work ensures consistency, minimizes risk, and creates sustainable processes that continue to deliver value over time. You excel in environments that value expertise, reward precision, and provide the time and resources necessary for thorough analysis and quality execution. Your commitment to excellence and your ability to maintain objectivity even in emotionally charged situations make you an invaluable asset in any organization that depends on accuracy, compliance, and technical excellence.",
+        "coreStrengths": [
+            {
+                "title": "Analytical Excellence and Problem-Solving",
+                "desc": "You have an exceptional ability to break down complex problems into component parts, analyze each systematically, and develop logical, well-reasoned solutions. Your analytical thinking goes beyond surface-level understanding to identify root causes, anticipate consequences, and design solutions that address underlying issues rather than just symptoms. This analytical rigor makes you invaluable in technical, strategic, and problem-solving roles."
+            },
+            {
+                "title": "Quality Focus and Attention to Detail",
+                "desc": "You maintain extraordinarily high standards for accuracy and quality, catching errors and inconsistencies that others miss. Your meticulous attention to detail ensures that work is not just completed but completed correctly, minimizing costly mistakes and rework. This quality focus is particularly valuable in fields where precision is critical—from engineering and finance to healthcare and legal work."
+            },
+            {
+                "title": "Systematic Planning and Process Design",
+                "desc": "You excel at creating well-organized systems, processes, and frameworks that bring order to complexity and ensure consistent, reliable outcomes. Your ability to think systematically helps organizations move from ad-hoc approaches to sustainable, scalable processes. You understand how to document procedures, build in quality controls, and create systems that work even when you're not personally overseeing them."
+            },
+            {
+                "title": "Objective Decision-Making",
+                "desc": "You make decisions based on facts, data, and logical analysis rather than emotion, politics, or personal preference. This objectivity helps organizations avoid costly mistakes driven by wishful thinking or groupthink. Your ability to remain rational and analytical even in emotionally charged situations provides valuable perspective and helps teams make better decisions."
+            },
+            {
+                "title": "Risk Assessment and Mitigation",
+                "desc": "You have a natural talent for identifying potential risks, problems, and unintended consequences that others might overlook. Your cautious, thorough approach helps organizations avoid pitfalls and prepare for contingencies. While others may see you as overly cautious, your risk awareness often prevents costly mistakes and ensures proper preparation."
+            },
+            {
+                "title": "Deep Expertise and Continuous Learning",
+                "desc": "You're driven to develop deep, comprehensive knowledge in your areas of focus. You don't settle for surface-level understanding—you want to truly master your craft. This commitment to expertise, combined with your systematic approach to learning, makes you a go-to resource for complex technical questions and challenging problems."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Precise and Data-Driven Expression",
+                "desc": "You communicate with remarkable precision, using specific language, concrete examples, and supporting data to make your points clear and credible. You avoid vague generalizations and unsupported claims, preferring to back up your statements with evidence. This precision ensures clarity and builds credibility, though it can sometimes come across as overly formal or technical to more relationship-oriented communicators."
+            },
+            {
+                "title": "Thoughtful and Deliberate Responses",
+                "desc": "You take time to think through your responses carefully before speaking or writing, ensuring your communication is accurate and well-reasoned. You're not comfortable with off-the-cuff responses to complex questions—you prefer to gather information, analyze it, and formulate a thoughtful response. While this deliberation ensures quality, it can sometimes be perceived as slow or hesitant in fast-paced environments."
+            },
+            {
+                "title": "Questioning for Clarity and Completeness",
+                "desc": "You ask probing, detailed questions to ensure you fully understand requirements, expectations, and context before proceeding. Your questions often uncover ambiguities, assumptions, or gaps that others missed. This thorough questioning prevents misunderstandings and ensures alignment, though it can sometimes be perceived as challenging or skeptical."
+            },
+            {
+                "title": "Preference for Written Documentation",
+                "desc": "You often prefer written communication over verbal, as it creates a clear record, allows for careful composition, and reduces ambiguity. You appreciate detailed documentation, specifications, and written agreements that everyone can reference. This preference for documentation ensures clarity and accountability but can sometimes slow down fast-moving situations that require quick verbal decisions."
+            },
+            {
+                "title": "Constructive Criticism and High Standards",
+                "desc": "You provide detailed, specific feedback focused on improving quality and accuracy. Your feedback is thorough and well-reasoned, identifying specific issues and often suggesting solutions. However, your high standards and focus on what's wrong (rather than what's right) can sometimes be perceived as overly critical or negative, particularly by those who need more positive reinforcement."
+            }
+        ],
+        "developmentOpportunities": [
+            "Balancing Analysis with Action: Your preference for thorough analysis can sometimes lead to 'analysis paralysis'—spending so much time gathering information and considering options that decision-making is delayed unnecessarily. Learning to recognize when you have 'enough' information to make a good decision, accepting that perfect information is rarely available, and becoming comfortable with calculated risk will increase your effectiveness in fast-paced environments.",
+            "Delivering Feedback with Encouragement: Your focus on identifying and correcting errors, while valuable for quality, can sometimes come across as overly critical or negative. Learning to balance constructive criticism with genuine recognition of what's working well, framing feedback in encouraging ways, and considering the emotional impact of your words will make your feedback more effective and strengthen relationships.",
+            "Increasing Flexibility and Adaptability: Your preference for established processes and proven approaches can sometimes lead to resistance to necessary change or innovation. Developing greater comfort with ambiguity, experimentation, and adapting plans when circumstances change will enhance your effectiveness in dynamic environments. Remember that sometimes 'good enough now' is better than 'perfect later.'",
+            "Sharing Work in Progress: Your high standards and desire for perfection can lead you to work in isolation until everything is 'just right' before sharing. Learning to share work in progress, seek early feedback, and collaborate throughout the process (not just at the end) will lead to better outcomes, stronger relationships, and faster progress. Remember that early feedback can prevent wasted effort on the wrong approach.",
+            "Building Relationships and Social Connection: Your task focus and preference for working independently can sometimes lead to neglecting relationship building and social connection. Investing time in getting to know colleagues personally, engaging in informal conversation, and building rapport beyond work tasks will strengthen your influence and make collaboration more effective.",
+            "Communicating for Different Audiences: Your precise, technical communication style is perfect for some audiences but can be overwhelming or off-putting for others. Developing the ability to adjust your communication style—simplifying for non-technical audiences, being more concise for busy executives, or being more conversational for relationship-oriented colleagues—will enhance your influence and effectiveness.",
+            "Embracing 'Good Enough': Your perfectionism and high standards, while ensuring quality, can sometimes lead to diminishing returns—spending disproportionate time on minor improvements that don't significantly impact outcomes. Learning to recognize when work is 'good enough' for its purpose, prioritizing your efforts on what matters most, and accepting that perfection isn't always necessary will increase your productivity and reduce stress."
+        ],
+        "workplacePreferences": [
+            "Clear Standards and Defined Expectations: You thrive in environments where quality standards, expectations, and success criteria are clearly defined and consistently applied. Ambiguous expectations or frequently changing standards can be frustrating and make it difficult for you to deliver your best work. You appreciate organizations that invest in creating clear guidelines and maintaining them.",
+            "Quiet, Focused Work Environment: You perform best in settings that allow for deep concentration without constant interruptions. Open office layouts with frequent disruptions, constant meetings, or highly social environments can be draining and prevent you from doing your best analytical work. You value organizations that respect the need for focused work time.",
+            "Logical, Merit-Based Decision-Making: You excel in cultures where decisions are made based on data, logic, and objective criteria rather than politics, personal relationships, or emotion. You appreciate environments where the best idea wins regardless of who proposed it, and where decisions can be questioned and debated based on their merits.",
+            "Respect for Expertise and Competence: You're motivated by environments that value deep expertise, reward technical excellence, and provide opportunities for continuous learning and skill development. You appreciate working with other competent professionals who share your commitment to quality and continuous improvement.",
+            "Adequate Time for Quality Work: You perform best when given sufficient time to do work properly rather than being rushed to meet arbitrary deadlines. While you can certainly work under time pressure when necessary, chronic rushing or unrealistic timelines that force shortcuts and compromise quality are demotivating and stressful.",
+            "Autonomy and Independence: You value the freedom to work independently, make your own decisions about how to approach problems, and execute your work without excessive oversight. Micromanagement or constant check-ins can feel intrusive and suggest a lack of trust in your competence.",
+            "Structured Career Development: You appreciate organizations that provide clear paths for advancement based on demonstrated expertise and contribution rather than politics or tenure. You value opportunities for professional development, certification, and deepening your expertise in your field."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Quality Guardian and Critical Thinker",
+            "description": "In team settings, you naturally assume the role of quality guardian and critical thinker—the person who ensures the team maintains high standards, considers potential risks, and makes decisions based on solid analysis rather than assumptions or groupthink. Your ability to identify potential problems before they occur, ask the tough questions others avoid, and insist on thorough analysis prevents costly mistakes and ensures quality outcomes. You excel at bringing analytical rigor to team discussions, challenging assumptions with data and logic, and designing systematic approaches to complex problems. Your attention to detail and commitment to accuracy often catches errors or oversights that could have become significant problems. You help teams avoid the pitfalls of rushing to action without adequate planning or analysis. However, your effectiveness as a team member is enhanced when you balance your natural skepticism and critical thinking with appropriate acknowledgment of what's working well and recognition of others' contributions. Additionally, being mindful of how your questions and criticism might be perceived, framing feedback constructively, and being willing to move forward even when analysis isn't complete will strengthen your collaborative impact. The most effective version of your team style combines your natural gifts for analytical thinking and quality focus with relationship building, flexibility, and appropriate risk tolerance."
+        },
+        "careerAlignment": "Your profile is exceptionally well-suited for roles that require analytical thinking, attention to detail, and commitment to quality and accuracy. You excel in positions such as: Engineering and Technical Design where your analytical skills and precision ensure quality solutions; Data Analysis and Research where your systematic approach and objectivity uncover valuable insights; Finance and Accounting where your attention to detail and analytical rigor ensure accuracy and compliance; Quality Assurance and Compliance where your high standards and risk awareness protect organizational interests; Software Development and Systems Architecture where your logical thinking and systematic approach create robust solutions; Scientific Research and Laboratory Work where your precision and methodical approach ensure valid results; Legal and Regulatory Affairs where your attention to detail and analytical skills navigate complex requirements; Process Improvement and Operations Analysis where your systematic thinking optimizes efficiency and quality; Information Security and Risk Management where your risk awareness and analytical skills protect organizational assets; and Technical Writing and Documentation where your precision and systematic thinking create clear, accurate resources. You're most fulfilled in roles that value expertise, provide opportunities for deep analysis and problem-solving, allow for independent work, and recognize quality and accuracy. Positions that require constant rapid decision-making without adequate analysis, highly social or relationship-focused work without technical substance, or environments that don't value precision and quality may not fully leverage your strengths.",
+        "adaptabilityInsight": "Your greatest opportunity for expanding your impact lies in developing what might be called 'pragmatic perfectionism'—the ability to maintain your high standards and analytical rigor while also recognizing when good enough is sufficient and when speed matters more than perfection. While your commitment to quality and thorough analysis is a tremendous strength, some situations require faster decision-making, greater flexibility, or acceptance of imperfect solutions. Learning to recognize these situations and adapt your approach accordingly will significantly enhance your effectiveness and career advancement. This might mean making decisions with 80% of the information you'd ideally like, sharing work in progress to get early feedback rather than perfecting it in isolation, or accepting that some tasks warrant a 'good enough' approach while others require your full analytical rigor. Additionally, developing stronger relationship-building and interpersonal skills will enhance your influence and effectiveness. Your technical competence and analytical skills are valuable, but in many organizations, influence and advancement also require the ability to build relationships, communicate effectively with non-technical audiences, and navigate organizational dynamics. Learning to balance your task focus with relationship building, your critical thinking with positive recognition, and your preference for independence with collaborative engagement will make you more effective and open doors to leadership opportunities. Remember that your analytical gifts and commitment to quality are tremendously valuable—the goal isn't to abandon these strengths but to expand your repertoire so you can choose the most effective approach for each situation.",
+        "summaryProfile": "C → Analytical Excellence & Quality Assurance\n\nYou are a thoughtful, precise professional who ensures quality and accuracy through systematic analysis, attention to detail, and unwavering commitment to high standards. Your ability to think critically, identify potential problems, and design robust solutions makes you invaluable in roles that require technical expertise and analytical rigor. You excel at bringing order to complexity, ensuring decisions are based on solid data and logic, and maintaining quality standards that others might compromise. Your deep expertise and continuous learning make you a go-to resource for complex technical challenges. To maximize your impact, focus on balancing your analytical thoroughness with appropriate speed and action, delivering feedback with encouragement alongside criticism, increasing your flexibility and comfort with ambiguity, building stronger relationships alongside your task focus, and recognizing when 'good enough' is sufficient. When you combine your natural gifts for analytical thinking and quality focus with greater flexibility, relationship skills, and pragmatic judgment about when perfection is necessary, you become an exceptionally valuable and respected professional and leader."
+    },
+    "DI": {
+        "behavioralOverview": "Your profile combines the decisive, results-driven nature of Dominance with the persuasive, people-oriented energy of Influence, creating a powerful 'Change Agent' profile. You possess both the drive to achieve ambitious goals and the charisma to rally others to your cause. This combination makes you a natural leader who doesn't just command—you inspire. You're energetic, assertive, and skilled at moving both projects and people forward simultaneously. You thrive in dynamic environments where you can set bold visions, persuade others to join you, and drive rapid execution. Your confidence and enthusiasm are contagious, often creating momentum that transforms ideas into reality faster than others thought possible.",
+        "coreStrengths": [
+            {
+                "title": "Visionary Leadership with Charisma",
+                "desc": "You combine strategic vision with the ability to articulate it compellingly, inspiring others to commit to ambitious goals. Your leadership style balances directive action with persuasive influence, making you effective at both setting direction and building followership."
+            },
+            {
+                "title": "Persuasive Action and Execution",
+                "desc": "You don't just sell ideas—you execute them. Your ability to combine convincing communication with decisive action means you can both win buy-in and deliver results, making you particularly effective in roles requiring both influence and execution."
+            },
+            {
+                "title": "High Energy and Dynamic Presence",
+                "desc": "You bring infectious energy and enthusiasm that accelerates team progress and maintains momentum even during challenging periods. Your dynamic presence lifts spirits and keeps teams focused on possibilities rather than obstacles."
+            },
+            {
+                "title": "Bold Initiative and Risk-Taking",
+                "desc": "You're quick to start new ventures, confident in leading them, and comfortable with the risks involved. Your willingness to act boldly and your ability to inspire others to join you makes you effective at launching new initiatives and driving innovation."
+            },
+            {
+                "title": "Competitive Drive with Social Intelligence",
+                "desc": "You combine competitive determination with social awareness, allowing you to compete effectively while maintaining relationships. You understand that winning often requires bringing people along, not just outperforming them."
+            },
+            {
+                "title": "Rapid Decision-Making with Stakeholder Buy-In",
+                "desc": "You can make quick decisions while also building support for them, balancing speed with influence. This ability to move fast without leaving people behind makes you effective in fast-paced, collaborative environments."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Inspirational and Direct",
+                "desc": "You communicate with a style that commands attention through both assertiveness and engaging delivery. You're direct about what needs to happen while also inspiring enthusiasm for the journey."
+            },
+            {
+                "title": "Future-Oriented and Possibility-Focused",
+                "desc": "You naturally talk about possibilities, opportunities, and next steps with genuine enthusiasm. Your forward-looking communication helps teams stay motivated and focused on what could be rather than dwelling on current limitations."
+            },
+            {
+                "title": "Fast-Paced and Energetic",
+                "desc": "You prefer quick, dynamic exchanges that maintain momentum. Your communication style is energetic and engaging, though it can sometimes overwhelm those who need more time to process or prefer more detailed discussion."
+            },
+            {
+                "title": "Persuasive Storytelling with Clear Calls to Action",
+                "desc": "You combine compelling narratives with clear direction, both inspiring people and telling them exactly what you need from them. This combination of inspiration and clarity makes your communication highly effective."
+            },
+            {
+                "title": "Confident and Assertive Expression",
+                "desc": "You speak with conviction and authority, which builds credibility and motivates action. Your confidence is reassuring to those looking for strong leadership, though it can sometimes come across as overconfident to more cautious personalities."
+            }
+        ],
+        "developmentOpportunities": [
+            "Patience with Detail and Process: Your focus on big-picture vision and rapid execution can lead to overlooking important operational details or necessary processes. Developing greater patience for detailed planning, quality checks, and systematic execution will prevent costly mistakes and rework.",
+            "Active Listening and Inclusive Decision-Making: Your combination of directiveness and expressiveness can sometimes lead to dominating conversations or making decisions without fully hearing others' perspectives. Practicing active listening and creating structured opportunities for input will strengthen your decisions and team engagement.",
+            "Consistent Follow-Through Beyond Initial Excitement: Your strength in launching initiatives and generating enthusiasm can sometimes outpace your focus on sustained execution. Developing systems and habits that ensure consistent follow-through—even after the initial excitement fades—will significantly enhance your impact.",
+            "Balancing Speed with Thoroughness: Your natural pace is fast, which creates momentum but can sometimes lead to rushing past necessary analysis or stakeholder alignment. Learning when to slow down for quality and buy-in will prevent problems and increase long-term success.",
+            "Humility and Receptivity to Feedback: Your confidence and strong opinions, while often assets, can sometimes make it difficult to receive critical feedback or acknowledge mistakes. Developing greater humility and openness to others' perspectives will strengthen your relationships and decision-making.",
+            "Managing Over-Commitment: Your enthusiasm for new opportunities and your confidence in your abilities can lead to taking on too much. Learning to evaluate opportunities more critically and being realistic about capacity will help you maintain quality and avoid burnout.",
+            "Developing Empathy for Different Paces: Not everyone operates at your speed or shares your comfort with rapid change and risk. Developing greater empathy for those who need more time, more information, or more stability will improve your leadership effectiveness and reduce team friction."
+        ],
+        "workplacePreferences": [
+            "Autonomy with Influence: You need both the freedom to make decisions and the platform to influence others. Roles that provide leadership authority combined with opportunities to inspire and persuade align perfectly with your strengths.",
+            "Dynamic, Fast-Paced Environments: You thrive in settings characterized by rapid change, ambitious goals, and high energy. Slow-moving, highly bureaucratic, or overly stable environments will feel stifling and fail to fully utilize your capabilities.",
+            "Opportunities for Visible Impact: You're energized by roles where you can see the direct results of your leadership and influence. Positions that offer visibility, recognition, and measurable impact on organizational success are particularly motivating.",
+            "Collaborative Yet Decisive Cultures: You excel in environments that value both teamwork and decisive action—where you can build consensus when appropriate but also make bold calls when necessary.",
+            "Innovation and Growth Focus: Organizations that prioritize innovation, growth, and continuous improvement align well with your change-oriented nature. You're less suited to maintenance-focused roles or organizations resistant to change.",
+            "Competitive Environments with Relationship Focus: You thrive in settings that offer competitive challenges while also valuing relationships and collaboration. Purely cutthroat environments or purely consensus-driven cultures may not fully leverage your balanced strengths."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Energizing Mobilizer and Change Catalyst",
+            "description": "In team settings, you're the spark plug—the person who gets things moving, keeps spirits high, and drives both action and enthusiasm. You excel at launching initiatives, building excitement, and maintaining momentum through your combination of directive leadership and persuasive influence. Your energy and confidence help teams push through obstacles and maintain focus on ambitious goals. You're particularly valuable during change initiatives, new project launches, or when teams need renewed energy and direction. However, your effectiveness is enhanced when you balance your natural drive and expressiveness with attention to detail, active listening, and patience for those who operate at different paces. Partnering with detail-oriented team members who can complement your big-picture focus and ensuring you don't inadvertently steamroll quieter voices will strengthen your collaborative impact."
+        },
+        "careerAlignment": "Your DI profile is exceptionally well-suited for roles requiring both leadership and influence. You excel in: Entrepreneurship and Business Development where your vision, risk tolerance, and persuasive skills drive new ventures; Sales Leadership and Revenue Generation where your competitive drive and relationship skills deliver results; Executive Leadership and General Management where you can set direction and inspire organizational commitment; Change Management and Transformation where your ability to drive and sell change creates successful transitions; Marketing and Brand Leadership where your creativity and persuasive communication build market presence; Political or Advocacy Leadership where your ability to inspire and mobilize creates movement; Consulting and Advisory roles where you can influence client decisions and drive implementation; and Start-up Leadership where your combination of vision, execution, and team building launches successful ventures.",
+        "adaptabilityInsight": "Your greatest opportunity for growth lies in developing what might be called 'disciplined dynamism'—maintaining your natural energy and drive while adding more structure, patience, and thoroughness to your approach. While your combination of decisiveness and persuasiveness is powerful, some situations require more careful analysis, detailed planning, or patient consensus-building than comes naturally to you. Learning to recognize these situations and intentionally slow down, seek more input, or focus on details will prevent costly mistakes and strengthen your leadership. Additionally, developing greater self-awareness about your impact on others—recognizing when your energy might be overwhelming, your directiveness might be shutting down input, or your confidence might be perceived as arrogance—will enhance your effectiveness. The goal isn't to dampen your natural strengths but to add greater flexibility and nuance to how you apply them.",
+        "summaryProfile": "DI → Dynamic Leadership & Persuasive Influence\n\nYou are a powerful change agent who combines decisive leadership with persuasive communication to drive results and inspire action. Your ability to set bold visions, rally others to your cause, and execute with energy and confidence makes you highly effective in fast-paced, growth-oriented environments. To maximize your impact, focus on balancing your speed with thoroughness, your directiveness with active listening, your confidence with humility, and your big-picture focus with attention to important details. When you combine your natural dynamism with greater discipline and patience, you become an exceptionally powerful and respected leader."
+    },
+    "ID": {
+        "behavioralOverview": "Your profile combines the persuasive, people-oriented energy of Influence with the decisive, results-driven nature of Dominance. You are a natural 'Persuader' who leads through charisma first, action second. Unlike the DI profile which leads with directiveness, you build relationships and enthusiasm before driving execution. You excel at winning people over to your vision and then mobilizing them toward results. Your approach is less command-and-control and more convince-and-collaborate, making you particularly effective in roles requiring both influence and achievement.",
+        "coreStrengths": [
+            {
+                "title": "Charismatic Results Achievement",
+                "desc": "You achieve results by first winning hearts and minds. Your ability to build genuine enthusiasm and commitment before pushing for action creates sustainable momentum and reduces resistance to change."
+            },
+            {
+                "title": "Bold, Confident Communication",
+                "desc": "You're not afraid to speak up, advocate for your ideas, and challenge the status quo. Your confidence combined with your engaging style makes your communication both persuasive and memorable."
+            },
+            {
+                "title": "Optimistic Determination",
+                "desc": "You combine genuine optimism with competitive drive, tackling challenges with both belief in positive outcomes and determination to achieve them. This combination helps teams maintain morale while staying focused on results."
+            },
+            {
+                "title": "Social and Political Intelligence",
+                "desc": "You navigate organizational dynamics, social hierarchies, and political landscapes with ease. Your ability to read people and situations helps you build the right alliances and influence key stakeholders."
+            },
+            {
+                "title": "Energetic Initiative",
+                "desc": "You're quick to start new initiatives and confident in leading them. Your combination of enthusiasm and action-orientation creates momentum that others find compelling and want to join."
+            },
+            {
+                "title": "Relationship-Based Influence",
+                "desc": "You build influence through genuine relationships rather than positional authority. This makes your leadership more resilient and effective across organizational boundaries."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Engaging Yet Assertive",
+                "desc": "You balance warmth and friendliness with firmness about your goals. You're approachable and fun to work with, but people also know you're serious about achieving results."
+            },
+            {
+                "title": "Compelling Storytelling",
+                "desc": "You use narrative, emotion, and vivid examples to make your points memorable and persuasive. Your stories don't just inform—they inspire action and create shared vision."
+            },
+            {
+                "title": "Open and Expressive",
+                "desc": "You share your thoughts, feelings, and ideas freely, creating transparency that builds trust. You also expect and encourage others to be equally open, fostering authentic dialogue."
+            },
+            {
+                "title": "Motivational and Action-Oriented",
+                "desc": "Your communication naturally motivates people toward action. You don't just discuss problems—you rally people around solutions and next steps."
+            },
+            {
+                "title": "Confident Advocacy",
+                "desc": "You advocate strongly for your ideas and the people you believe in. Your confidence and passion make you an effective champion for causes and initiatives you care about."
+            }
+        ],
+        "developmentOpportunities": [
+            "Attention to Detail and Follow-Through: Your focus on big-picture influence and relationship building can lead to overlooking important details or losing interest after the initial excitement. Developing systems for detailed execution and sustained follow-through will significantly enhance your impact.",
+            "Active Listening and Processing Time: Your enthusiasm and quick thinking can lead to interrupting others or moving on before fully hearing their perspectives. Practicing patient listening and giving others time to process will deepen relationships and improve decision quality.",
+            "Realistic Planning and Resource Assessment: Your optimism and confidence can sometimes lead to underestimating challenges or overcommitting. Balancing your natural optimism with realistic assessment of resources, timelines, and obstacles will prevent disappointments and build credibility.",
+            "Consistency Between Words and Actions: Your enthusiasm can sometimes lead to making commitments in the moment that are difficult to sustain long-term. Ensuring your actions consistently match your words will build trust and credibility.",
+            "Data-Driven Decision Making: Your reliance on intuition, relationships, and emotional intelligence is valuable but can benefit from more systematic data analysis. Incorporating more objective metrics and analysis will strengthen your decisions.",
+            "Managing Perception of Superficiality: Your quick relationship building and enthusiastic style can sometimes be perceived as superficial or insincere. Demonstrating depth, follow-through, and genuine long-term commitment will counter this perception.",
+            "Balancing Speed with Thoroughness: Your desire to move quickly and maintain momentum can sometimes lead to rushing past necessary analysis or planning. Learning when to slow down for quality will prevent costly mistakes."
+        ],
+        "workplacePreferences": [
+            "Socially Dynamic Environments: You thrive in workplaces with frequent interaction, collaborative projects, and opportunities to build relationships. Isolated or highly independent work feels draining.",
+            "Results-Oriented with Flexibility: You want clear goals and accountability for outcomes, but you also need freedom in how you achieve them. Rigid processes or micromanagement feel constraining.",
+            "Recognition and Visibility: You're energized by environments that provide visibility for your contributions and recognize both relationship building and results achievement.",
+            "Influence Opportunities: You excel in roles where you can shape decisions, influence stakeholders, and drive change through persuasion rather than just positional authority.",
+            "Fast-Paced and Varied: You prefer dynamic environments with variety, new challenges, and opportunities to work on different projects or with different people.",
+            "Collaborative Competition: You thrive in settings that balance teamwork with healthy competition—where you can both build relationships and compete for results."
+        ],
+        "teamCollaborationStyle": {
+            "title": "Inspirational Mobilizer",
+            "description": "You lead teams through inspiration and relationship-based influence. You make work feel exciting, worthwhile, and achievable, creating genuine enthusiasm that motivates sustained effort. Your ability to build strong relationships while also driving for results makes you effective at both team building and execution. You're particularly valuable when teams need renewed energy, when buy-in is critical for success, or when change requires both relationship management and decisive action. Your effectiveness is enhanced when you balance your natural enthusiasm with attention to detail, ensure your follow-through matches your commitments, and partner with more analytical team members who can complement your strengths."
+        },
+        "careerAlignment": "Your ID profile excels in roles requiring persuasive influence backed by results orientation. You thrive in: Sales and Business Development where relationship building drives revenue; Marketing and Brand Management where creativity and influence shape market perception; Public Relations and Communications where persuasive storytelling creates impact; Recruiting and Talent Acquisition where relationship skills and results focus attract top talent; Account Management and Customer Success where you maintain relationships while driving outcomes; Training and Organizational Development where you inspire learning and change; Political or Advocacy Work where persuasion and mobilization create movement; and Consulting where you influence client decisions and drive implementation.",
+        "adaptabilityInsight": "Your greatest growth opportunity lies in developing 'grounded enthusiasm'—maintaining your natural optimism and persuasive energy while adding more analytical rigor, attention to detail, and realistic planning. While your combination of influence and drive is powerful, some situations require more careful analysis, detailed execution, or patient consensus-building than comes naturally. Learning to recognize these situations and intentionally slow down, verify facts, or focus on details will prevent mistakes and build credibility with more analytical stakeholders. Additionally, ensuring your actions consistently match your words over time will strengthen trust and long-term relationships.",
+        "summaryProfile": "ID → Persuasive Influence & Results Drive\n\nYou are a charismatic achiever who wins people over before driving them forward. Your ability to build genuine enthusiasm, create compelling vision, and then mobilize action makes you highly effective in roles requiring both influence and execution. To maximize impact, focus on balancing enthusiasm with realistic planning, ensuring follow-through matches commitments, incorporating more data-driven analysis, and developing greater attention to detail. When you combine your natural persuasiveness with disciplined execution, you become exceptionally powerful."
+    },
+    "DC": {
+        "behavioralOverview": "Your profile combines the decisive, results-oriented nature of Dominance with the analytical, quality-focused traits of Conscientiousness. You are a 'Creative Leader' or 'Architect' who is driven to achieve results but demands that they be achieved correctly and to high standards. Unlike the pure D who might sacrifice detail for speed, or the pure C who might sacrifice speed for perfection, you constantly balance the need for progress with the need for precision. You are a strategic thinker who excels at solving complex problems, designing robust systems, and driving implementation. You can be demanding of yourself and others, expecting both high effort and high quality. You approach challenges with a mix of logic and determination, ensuring that your solutions are not just effective but also durable and well-engineered.",
+        "coreStrengths": [
+            {
+                "title": "Strategic Execution and Planning",
+                "desc": "You excel at both planning the work and working the plan. You don't just charge ahead; you design a strategy and then execute it with determination, ensuring that your path to the goal is efficient and effective."
+            },
+            {
+                "title": "High Standards and Quality Focus",
+                "desc": "You drive for results that are not just delivered on time but also meet high quality standards. You are rarely satisfied with 'good enough' and push yourself and your team to achieve excellence."
+            },
+            {
+                "title": "Objective, Data-Driven Leadership",
+                "desc": "You lead with logic and facts rather than emotion. Your decisions are typically well-researched and defensible, which builds confidence among stakeholders who value rigor and substance."
+            },
+            {
+                "title": "Complex Problem Solving",
+                "desc": "You thrive on difficult challenges that require both analytical depth and decisive action. You have the persistence to dig into details and the drive to push through obstacles to find a solution."
+            },
+            {
+                "title": "Efficiency and Process Optimization",
+                "desc": "You have a natural eye for inefficiency and a drive to fix it. You create systems and processes that improve productivity and quality, often redesigning workflows to be more logical and effective."
+            },
+            {
+                "title": "Independent and Self-Motivated",
+                "desc": "You don't need external motivation to get things done. You set your own high standards and work autonomously to achieve them, often functioning effectively with minimal supervision."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Direct and Factual",
+                "desc": "You communicate clearly and concisely, stating what needs to be done and providing the logical rationale behind it. You prefer to get straight to the point without unnecessary fluff."
+            },
+            {
+                "title": "Logic-Based Persuasion",
+                "desc": "You persuade others by presenting evidence, data, and logical arguments. You respect people who can debate the facts and tend to be less swayed by emotional appeals."
+            },
+            {
+                "title": "Questioning and Critical",
+                "desc": "You natural style involves asking tough questions to test the validity of ideas. This is your way of ensuring quality, though it can sometimes be perceived as skepticism or criticism."
+            },
+            {
+                "title": "Written and Documented",
+                "desc": "You appreciate written communication that provides a record of decisions and details. You are likely to follow up verbal agreements with an email to confirm understanding."
+            },
+            {
+                "title": "No-Nonsense Professionalism",
+                "desc": "You maintain a professional demeanor and generally prefer to keep conversations focused on work tasks and goals rather than personal matters or small talk."
+            }
+        ],
+        "developmentOpportunities": [
+            "Developing Warmth and Empathy: Your focus on tasks and logic can sometimes make you appear cold or unapproachable. Intentionally expressing appreciation and taking time for personal connection will build stronger team loyalty.",
+            "Balancing Perfection with Speed: Your high standards can sometimes lead to delays or 'analysis paralysis' if you insist on perfection. Learning to accept 'good enough' when speed is critical will enhance your agility.",
+            "Delegating Without Micromanagement: You may struggle to trust others to do work to your standards, leading to micromanagement. Learning to delegate the 'what' without dictating every aspect of the 'how' is key to scaling your impact.",
+            "Patience with Others: You process information quickly and act decisively, and may become impatient with those who are slower or less precise. Developing patience for different work styles will improve collaboration.",
+            "Accepting Mistakes (Your Own and Others'): You can be harsh on mistakes. Viewing failure as a learning opportunity rather than a defect will create a psychologically safer environment for innovation.",
+            "Soliciting Input Before Deciding: You tend to trust your own analysis most. Actively seeking diverse perspectives before finalizing decisions can reveal blind spots and increase buy-in.",
+            "Recognizing Effort, Not Just Results: You naturally focus on the outcome. Remembering to acknowledge the effort and progress, even when the final result isn't perfect, motivates your team."
+        ],
+        "workplacePreferences": [
+            "Structured and Efficient Environments: You thrive in workplaces that are organized, where roles are clear, and where efficiency is valued. Chaos and disorganization are particularly frustrating for you.",
+            "Autonomy and Independence: You prefer roles where you have the freedom to determine how to achieve your goals. You dislike being micromanaged but appreciate clear objectives.",
+            "Meritocratic Culture: You respect competence and performance. Environments where advancement is based on skill and achievement rather than politics or seniority appeal to you.",
+            "Challenge and Complexity: You are energized by difficult problems that require you to stretch your analytical and leadership muscles. Routine, repetitive work is likely to bore you.",
+            "Quality-Conscious Organizations: You want to work for an organization that takes pride in its products or services. Being forced to cut corners or ship inferior work is demotivating.",
+            "Direct and Professional Communication: You prefer a culture where people speak plainly and focus on the work, rather than one dominated by office politics or excessive socializing."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Strategic Architect",
+            "description": "In a team, you act as the architect and quality controller. You help the team define the most effective path to the goal and ensure that standards are maintained along the way. You are often the one who spots the flaws in a plan before they become problems, asking the 'what if' questions that others miss. You keep the team focused on the objective and prevent scope creep or distraction. Your drive for efficiency helps the team eliminate waste and streamline processes. However, your critical nature and high standards can sometimes be intimidating to teammates who are more sensitive or less confident. You are most effective when your balance your drive for results with an effort to build rapport and when you frame your critical feedback as a way to help the team succeed rather than just pointing out errors."
+        },
+        "careerAlignment": "Your DC profile suits roles requiring leadership, strategy, and precision. You excel in: Operations Management, where efficiency and process are key; Project Management (Technical), managing complex timelines and deliverables; Architecture and Engineering Leadership, combining design with execution; Strategy Consulting, solving complex business problems; Financial Management/Controller, ensuring accuracy and fiscal responsibility; Quality Assurance Leadership, setting and enforcing standards; and Legal/Compliance roles, applying logic and rules to protect the organization.",
+        "adaptabilityInsight": "Your growth edge lies in 'relational leadership'. You already have the task and quality sides mastered. By consciously softening your delivery, validating others' feelings (even if you don't share them), and spending a small percentage of your energy on relationship maintenance, you can dramatically increase your influence. People work harder for leaders they like and trust, not just those they respect for their competence. Also, practice the '80/20 rule' for perfection—recognize which 20% of the work truly needs 100% of your perfectionism, and where you can relax your standards to gain speed.",
+        "summaryProfile": "DC → Strategy + Analytical Leadership\n\nYou are a driven, quality-focused leader who combines the will to win with the discipline to do it right. Your ability to solve complex problems, design efficient systems, and drive execution makes you invaluable for high-stakes, technical, or operational challenges. By balancing your high standards with warmth and flexibility, you can become a truly transformative leader."
+    },
+    "CD": {
+        "behavioralOverview": "Your profile combines the analytical, detail-oriented nature of Conscientiousness with the results-driven forceful nature of Dominance. You are a 'Cautious Enforcer' or 'Systems Thinker' who uses your drive to ensure accuracy, compliance, and quality. While similar to the DC, your primary focus is on correctness and process first, then speed. You are systematic, rigorous, and objective, often serving as the person who ensures that great ideas are actually feasible and implemented properly. You value rules, logic, and structure, and you are not afraid to enforce them. You are a critical thinker who anticipates risks and works diligently to mitigate them, ensuring that the organization stands on a solid foundation.",
+        "coreStrengths": [
+            {
+                "title": "Rigorous Analysis and Implementation",
+                "desc": "You have the ability to deeply analyze a situation and the drive to implement the necessary solution. You ensure that systems are not just designed but are actually used and followed appropriately."
+            },
+            {
+                "title": "Quality Control and Standards",
+                "desc": "You are a champion for high standards. You set the bar high for accuracy and quality, and you hold yourself and others accountable to meeting those expectations."
+            },
+            {
+                "title": "Systematic Problem Solving",
+                "desc": "You approach problems with a methodical mindset, breaking them down into components and solving them logically. You are rarely overwhelmed by complexity; instead, you organize it."
+            },
+            {
+                "title": "Risk Management",
+                "desc": "You have a natural ability to foresee potential pitfalls and failure points. Your caution protects the team and organization from reckless decisions or overlooked details."
+            },
+            {
+                "title": "Objective and Fair",
+                "desc": "You strive to be fair and consistent in your decisions, basing them on rules and facts rather than favoritism or emotion. People know where they stand with you because the rules are clear."
+            },
+            {
+                "title": "Tenacious Follow-Through",
+                "desc": "Once you commit to a task or a standard, you are tenacious in seeing it through. You don't give up easily on ensuring things are done right."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Precise and Specific",
+                "desc": "You choose your words carefully to be accurate. You dislike vague generalizations and prefer to discuss specific details, facts, and figures."
+            },
+            {
+                "title": "Evaluative and Critical",
+                "desc": "You naturally focus on what needs to be fixed or improved. Your communication often involves spotting errors or suggesting corrections, which is aimed at ensuring quality."
+            },
+            {
+                "title": "Formal and Professional",
+                "desc": "You tend to be formal in your interactions, respecting hierarchy and protocol. You prefer structured meetings and defined agendas over informal chats."
+            },
+            {
+                "title": "Documentation-Oriented",
+                "desc": "You rely heavily on written communication to ensure clarity and traceability. You want agreements and instructions to be documented to avoid misunderstanding."
+            },
+            {
+                "title": "Fact-Based Advocacy",
+                "desc": "When you argue a point, you do so with evidence. You are not swayed by 'hype' and expect others to prove their case with data."
+            }
+        ],
+        "developmentOpportunities": [
+            "Delivering Feedback with Tact: Your focus on 'what is wrong' can be demoralizing if not balanced with 'what is right'. Learning to package criticism constructively and supportively is crucial.",
+            "Balancing Analysis with Action: You may tend to over-analyze or wait for perfect data before acting. Pushing yourself to move forward with calculated risks when time is of the essence will increase your impact.",
+            "Openness to Innovation: You may be skeptical of new, unproven methods. Cultivating an openness to experimentation and understanding that failure is part of innovation can help you adapt.",
+            "Building Personal Relationships: You might view socialization as inefficient. Recognizing that strong relationships actually improve efficiency and trust will help you be more effective.",
+            "Flexibility with Rules: Sometimes rules need to be bent for the greater good or common sense. Learning when to strictly enforce and when to be flexible is a key leadership skill.",
+            "Listening to Emotional Context: People are not machines; they have feelings that impact their work. acknowledging the emotional climate can help you manage and motivate others better.",
+            "Collaboration vs. Independence: You may prefer working alone to ensure quality. Actively collaborating and trusting others' expertise can lead to better, more holistic solutions."
+        ],
+        "workplacePreferences": [
+            "Organized and Disciplined Culture: You prefer a workplace where there is order, discipline, and respect for rules. Chaotic or 'loose' environments are stressful for you.",
+            "Clear Roles and Responsibilities: You want to know exactly what is expected of you and where your authority lies. Ambiguity in roles leads to frustration.",
+            "Focus on Quality over Speed: You resent being rushed if it means compromising on the quality of your work. You prefer environments that value 'doing it right' the first time.",
+            "Private or Quiet Workspace: You need an environment that allows for deep concentration without constant interruptions or noise.",
+            "Data-Driven Decision Making: You perform best where decisions are made based on logic and analysis, not office politics or loudest voices.",
+            "Tools and Resources for Excellence: You expect to have the necessary tools, software, or resources to do your job to the high standard you set for yourself."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Guardian of Standards",
+            "description": "On a team, you are the anchor of quality and reality. You protect the team from making sloppy mistakes or over-promising on what can be delivered. You provide the necessary skepticism that stress-tests ideas before they are launched. You are the one who ensures that the details are not overlooked and that the plan is actually viable. You bring structure to brainstorming sessions and help organize chaotic ideas into actionable plans. However, you need to be careful not to be the 'wet blanket' who always says no. Your challenge is to use your analytical skills to show *how* a risky idea can be made safe and workable, rather than just pointing out why it won't work. You are most effective when you collaborate with visionaries (like I or D styles) by acting as their grounding force, helping turn their big ideas into working reality."
+        },
+        "careerAlignment": "Your CD profile fits roles that require precision, compliance, and methodical implementation. You fit well in: Financial Controller/Accounting, where accuracy is paramount; Quality Assurance/Control Manager, enforcing standards; Systems Administration/IT Security, protecting infrastructure; Compliance Officer/Auditor, ensuring adherence to regulations; Scientific or Medical Research, requiring rigorous methodology; Engineering (Civil/Structural), where safety and precision are critical; and Contract Administration, managing details and terms.",
+        "adaptabilityInsight": "Your key adaptability challenge is 'emotional intelligence' and 'speed'. Work on reading the room—if morale is low, a critique of the process might not be the right move, even if valid. Try to start interactions with a personal check-in. Also, practice 'good enough' decision making for low-risk items. Not every email needs to be a masterpiece; not every internal memo needs legal-grade review. Saving your high-intensity perfectionism for the critical path items will save you energy and speed up your workflow.",
+        "summaryProfile": "CD → Prudent Implementation & Quality Control\n\nYou are a systematic, disciplined professional who ensures that organizations not only run but run correctly. Your combination of analytical depth and determination makes you the ultimate guardian of quality and standards. By learning to balance your rigor with adaptability and warmth, you become a trusted authority who ensures sustainable success."
+    },
+    "IS": {
+        "behavioralOverview": "Your profile combines the people-oriented, expressive nature of Influence with the steady, empathetic nature of Steadiness. You are a 'Harmonizer' or 'Relational Bridge' who prioritizes people above all else. You are warm, approachable, and highly collaborative, serving as the glue that holds teams together. Unlike the high-energy I who loves the spotlight, your influence is more personal and supportive. You excel at listening, understanding others' feelings, and creating an inclusive environment where everyone feels valued. You are a natural peace-maker who dislikes conflict and works hard to ensure positive group dynamics.",
+        "coreStrengths": [
+            {
+                "title": "Deep Empathy and Understanding",
+                "desc": "You have an enhanced ability to sense and understand how others are feeling. This allows you to connect not just professionally, but personally, building deep trust and loyalty."
+            },
+            {
+                "title": "Building Team Cohesion",
+                "desc": "You naturally build bridges between people and foster a sense of belonging. You are often the person others turn to when they need support or conflict resolution."
+            },
+            {
+                "title": "Warm and Inclusive Communication",
+                "desc": "Your communication style is inviting and non-threatening. You make people feel heard and understood, which encourages open dialogue and collaboration."
+            },
+            {
+                "title": "Service and Support Orientation",
+                "desc": "You are genuinely motivated to help others succeed. You derive satisfaction from supporting your team and ensuring that collective goals are met in a harmonious way."
+            },
+            {
+                "title": "Patience and Approachability",
+                "desc": "You are accessible and patient, willing to take the time to listen to problems and help find solutions without rushing or judging."
+            },
+            {
+                "title": "Diplomacy and Tact",
+                "desc": "You communicate difficult messages with kindness and consideration, minimizing hurt feelings and preserving relationships even during disagreements."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Warm and Inviting",
+                "desc": "You greet others with genuine warmth that puts them at ease immediately. Your demeanor invites interaction and signals that you are safe to talk to."
+            },
+            {
+                "title": "Personal Connection",
+                "desc": "You prefer to connect on a human level before diving into business. Asking about family, well-being, or interests is not just small talk for you—it's relationship building."
+            },
+            {
+                "title": "Supportive Listening",
+                "desc": "You listen not just to reply, but to understand and validate. You offer encouragement and verbal nods that show you are fully engaged."
+            },
+            {
+                "title": "Collaborative Language",
+                "desc": "You use 'we' language frequently and frame ideas as suggestions rather than commands. You invite input and seek consensus in your discussions."
+            },
+            {
+                "title": "Avoidance of Aggression",
+                "desc": "You steer clear of harsh or aggressive tones. Even when frustrated, you tend to express it diplomatically or keep it to yourself to avoid conflict."
+            }
+        ],
+        "developmentOpportunities": [
+            "Assertiveness in Conflict: You naturally avoid conflict, which can lead to unresolved issues or you accepting too much burden. Learning to address disagreements directly and constructively is a key growth area.",
+            "Delivering Critical Feedback: You may hesitate to give negative feedback for fear of hurting feelings. separating the person from the performance will help you help them grow.",
+            "Balancing People with Tasks: Your focus on relationships can sometimes overshadow task deadlines or productivity. Finding a balance where work gets done efficiently without sacrificing morale is important.",
+            "Learning to Say No: Your desire to help can lead to overcommitment. Protecting your time and energy boundaries allows you to sustain your support for the long, term.",
+            "Handling Rapid Change: You prefer stability and may struggle with sudden disruptions. Developing resilience and adaptability to change will help you navigate dynamic environments.",
+            "Objectivity in Decision Making: Your empathy can sometimes bias your decisions toward what is popular or painless rather than what is best for the business. Balancing heart with head is crucial.",
+            "Speed of Action: You may delay decisions to ensure everyone is on board. Sometimes, acting quickly is more important than total consensus."
+        ],
+        "workplacePreferences": [
+            "Harmonious and Friendly Atmosphere: You thrive in environments where people get along, support each other, and treat each other with respect. Toxic or highly political cultures are draining for you.",
+            "Collaboration Over Competition: You prefer working together towards shared goals rather than competing against colleagues. Individualistic, cutthroat environments are demotivating.",
+            "Stability and Predictability: While you enjoy social variety, you appreciate a stable work structure and clear expectations without constant, chaotic change.",
+            "Opportunities to Help Others: Roles that allow you to mentor, support, teach, or care for others align perfectly with your motivations.",
+            "Appreciation and Recognition: You don't need the spotlight, but you do need to feel that your contribution and loyalty are noticed and valued.",
+            "Open and Safe Communication: You want a culture where it is safe to express feelings and where managers are approachable and caring."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Team Harmonizer",
+            "description": "In a team, you are the psychological safety net. You create an environment where trust can flourish and where members feel comfortable taking risks because they know they will be supported. You are the glue that holds the group together during stressful times, often mediating informal conflicts and ensuring that morale remains high. You encourage participation from quieter members and smooth over rough edges in communication. However, you may struggle in teams that are overly aggressive, purely transactional, or filled with high conflict. You are most effective when your role in building culture and cohesion is explicitly valued, and when you are partnered with more task-oriented members who can handle the 'hard edge' driving of results while you handle the people."
+        },
+        "careerAlignment": "Your IS profile is perfect for roles centered on people, support, and communication. You excel in: Human Resources (Employee Relations/Culture); Teaching, Training, and Facilitation; Customer Success and Account Management (Relationship focus); Counseling, Coaching, or Therapy; Non-Profit Program Management; Healthcare (Patient relations/Nursing); and Event Planning (Experience focus).",
+        "adaptabilityInsight": "Your growth edge is 'professional distance' and 'directness'. Sometimes, being too empathetic can carry the weight of others' emotions. Learning to care without carrying is vital for self-preservation. Additionally, practice the 'sandwich method' for feedback—positive, constructive, positive—but ensure the constructive part is clear. You help people more by being honest about their gaps than by protecting their feelings in the short term. Remember, clarity is a form of kindness.",
+        "summaryProfile": "IS → Connection + Emotional Intelligence\n\nYou are a warm, empathetic connector who builds high-trust relationships and fosters harmonious environments. Your ability to understand people and create team cohesion makes you an essential element of any healthy organization. By balancing your deep care for people with the ability to be assertive and task-focused when needed, you become a powerful, well-rounded leader."
+    },
+    "SI": {
+        "behavioralOverview": "Your profile suggests a 'Collaborative Supporter' style. You combine the reliability and patience of Steadiness with the friendliness and optimism of Influence. You are a quintessential team player who is consistent, loyal, and excellent at maintaining long-term relationships. Unlike the IS who initiates connection, you sustain it. You are less about the initial splash and more about the enduring support. You bring a sense of stability and warmth to the workplace, ensuring that work gets done in a cooperative and pleasant manner. You are often the person who remembers birthdays, checks in on colleagues, and quietly ensures that the team culture remains positive.",
+        "coreStrengths": [
+            {
+                "title": "Unwavering Loyalty and Dependability",
+                "desc": "You are dedicated to your team and organization. People know they can count on you to be there, to do your part, and to support them through ups and downs."
+            },
+            {
+                "title": "Patient and Consistent Execution",
+                "desc": "You work at a steady, reliable pace. You don't rush or cut corners; you ensure that tasks are completed thoroughly and consistently over time."
+            },
+            {
+                "title": "Conflict De-escalation",
+                "desc": "You have a calming presence that helps lower the temperature in tense situations. You naturally seek compromise and harmony, helping others find common ground."
+            },
+            {
+                "title": "Excellent Listener",
+                "desc": "You are a patient listener who gives people time to express themselves. You process what others encounter and offer thoughtful, supportive responses."
+            },
+            {
+                "title": "Service-Oriented Leadership",
+                "desc": "You lead by serving. You are willing to pitch in and do the work alongside your team, which builds tremendous respect and camaraderie."
+            },
+            {
+                "title": "Relational Stability",
+                "desc": "You build relationships that last. Clients and colleagues appreciate your consistency and your genuine care, which leads to long-term retention and trust."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Kind and Considerate",
+                "desc": "You speak with kindness and consideration for others' feelings. You rarely use harsh words and are careful not to offend."
+            },
+            {
+                "title": "Asking Open Questions",
+                "desc": "You prefer to ask questions to understand others' perspectives rather than dictating your own. This makes your communication inclusive and collaborative."
+            },
+            {
+                "title": "Methodical and Thoughtful",
+                "desc": "You think before you speak. You value clarity and consistency, ensuring that your message is understood and reliable."
+            },
+            {
+                "title": "Non-Verbal Warmth",
+                "desc": "You communicate support through body language—a smile, a nod, or patient eye contact—that signals you are present and attentive."
+            },
+            {
+                "title": "Reassurance",
+                "desc": "You often provide reassurance to others, validating their ideas and calming their anxieties about change or risk."
+            }
+        ],
+        "developmentOpportunities": [
+            "Initiating Change: You may tend to wait for others to start new initiatives. Developing the confidence to propose and lead change will increase your visibility and impact.",
+            "Speaking Up Under Pressure: In group settings or conflicts, you might stay silent to keep the peace. Learning to voice your dissent constructively is valuable for the team.",
+            "Prioritizing Your Own Needs: You are so focused on supporting others that you may neglect your own career goals or well-being. Asserting your own needs is healthy.",
+            "Dealing with Ambiguity: You prefer clear instructions and stability. Developing comfort with ambiguity and incomplete information will help you in dynamic roles.",
+            "Speed of Decision Making: You like to process and consult before deciding. Sometimes, a 'good enough' decision made quickly is better than a perfect one made late.",
+            "Directness in Crisis: In an emergency, niceties can slow things down. Learning to switch to direct, command-mode communication when necessary is a key situational skill.",
+            "Over-Accommodating: You might agree to things just to be helpful. Learning to say 'no' effectively ensures you can deliver on your core responsibilities."
+        ],
+        "workplacePreferences": [
+            "Stable and Harmonious Environment: You prefer a workplace with low turnover, clear processes, and a friendly atmosphere. High-stress, chaotic environments are draining.",
+            "Clear Expectations and Procedures: You perform best when you know exactly what is expected and have a established rhythm or routine to follow.",
+            "Long-Term Relationships: You value working with the same group of people over time, building deep familiarity and trust.",
+            "Team-Oriented Goals: You prefer shared goals where the team wins together, rather than individual competition for the top spot.",
+            "Sincere Appreciation: You respond well to genuine, private appreciation for your hard work and reliability. Public fanfare is less important than sincere thanks.",
+            "Supportive Management: You want a manager who acts as a coach and mentor, providing support and guidance rather than just orders."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Reliable Anchor",
+            "description": "On a team, you are the anchor. While others may fly high with new ideas or push hard for results, you are the one ensuring the work actually gets done properly and consistently. You provide the stability that allows the team to function. You are the person who inducts new members, maintains the team's culture, and ensures that no one is left behind. You collaborate by supporting. You don't need to be the captain; you are happy to be the reliable first mate who ensures the ship runs smoothly. However, you need to ensure you don't become the 'doormat' who takes on everyone's unwanted tasks. Your challenge is to assert your value as the stabilizer, ensuring that the team respects your need for process and steady pace."
+        },
+        "careerAlignment": "Your SI profile is well-suited for roles requiring consistency, service, and relationship maintenance. You excel in: Customer Support Leadership (High-touch); Administrative Management (Office Manager/EA); Human Resources (Benefits/Operations); Education and Special Education; Healthcare and Nursing; Account Management (Maintenance focus); and Non-Profit Operations.",
+        "adaptabilityInsight": "Your growth opportunity revolves around 'comfortable discomfort'. Growth often happens in the zone of discomfort—initiating a difficult conversation, trying a completely new process, or leading a meeting without a script. Challenge yourself to take one small 'risk' a week. Also, recognize that conflict is not inherently bad; constructive conflict acts as a fire that clears out dead wood to let new things grow. Don't be afraid to light a small match when necessary.",
+        "summaryProfile": "SI → Consistency + Support\n\nYou are a reliable, empathetic professional who provides the stable foundation upon which teams succeed. Your combination of loyalty to people and dedication to process makes you the bedrock of any organization. By finding your voice and embracing necessary change, you elevate your support from helpfulness to strategic leadership."
+    },
+    "SC": {
+        "behavioralOverview": "Your profile combines the steady, patient nature of Steadiness with the analytical, precise traits of Conscientiousness. You are a 'Reliable Specialist' or 'Patient Coordinator' who excels at creating stability and ensuring accuracy. You are the personification of 'slow and steady wins the race.' You are calm, consistent, and deeply reliable. Unlike the faster-paced profiles, you prefer to think before you act and verify before you speak. You serve the team by creating and maintaining reliable systems, ensuring that details are perfect and that the environment remains harmonious and predictable.",
+        "coreStrengths": [
+            {
+                "title": "Unwavering Accuracy and Reliability",
+                "desc": "You are trusted to get things right the first time and every time. Your combination of patience and attention to detail means errors rarely slip past you."
+            },
+            {
+                "title": "Systematic Process Adherence",
+                "desc": "You follow procedures faithfully and can be trusted to maintain standards even when no one is watching. You bring order to chaos through methodical execution."
+            },
+            {
+                "title": "Calm Analysis",
+                "desc": "You approach problems with a cool head. You don't get swept up in emotion or urgency; instead, you analyze the facts and proceed logically."
+            },
+            {
+                "title": "Deep Focus and Persistence",
+                "desc": "You have the ability to focus on complex, detailed tasks for long periods without losing concentration. You are persistent in seeing tasks through to completion."
+            },
+            {
+                "title": "Considerate Support",
+                "desc": "You support others in a practical, tangible way. You are a helpful teammate who provides the data, resources, or stability others need to succeed."
+            },
+            {
+                "title": "Risk Mitigation",
+                "desc": "You naturally anticipate what could go wrong and take steps to prevent it. Your caution helps the team avoid widely optimistic but dangerous pitfalls."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Careful and Thoughtful",
+                "desc": "You think before you speak, often pausing to formulate your thoughts. You rarely blurt out unverified information."
+            },
+            {
+                "title": "Detailed and Specific",
+                "desc": "You provide all the necessary context and detail. You dislike vague instructions and prefer to communicate with precision."
+            },
+            {
+                "title": "Reserved and Modest",
+                "desc": "You tend to be quiet in groups, preferring to listen and observe. You are not one to seek the spotlight or dominate the conversation."
+            },
+            {
+                "title": "Diplomatic Logic",
+                "desc": "You disagree by presenting facts rather than emotions. Your critiques are often subtle and aimed at the process rather than the person."
+            },
+            {
+                "title": "Written Preference",
+                "desc": "You often prefer email or written reports where you can ensure exactly the right words are used and a record is kept."
+            }
+        ],
+        "developmentOpportunities": [
+            "Building Agility: You prefer established routines and may struggle when plans change suddenly. Developing a mindset that accepts change as inevitable will reduce stress.",
+            "Expressing Enthusiasm: Your calm exterior can sometimes be read as indifference. Learning to verbally express excitement or agreement helps others know you are onboard.",
+            "Assertiveness: You may suppress your meaningful insights to avoid conflict or drawing attention. Speaking up earlier with your expertise prevents problems later.",
+            "Handling Ambiguity: You prefer clear instructions. Developing strategies to move forward even when the path isn't fully mapped out increases your independence.",
+            "Speed of Execution: Your desire for perfection can slow you down. Learning when to aim for 80% accuracy for the sake of speed is a valuable skill.",
+            "Dealing with Conflict: You may retreat or shut down in tense situations. Learning to engage constructively in conflict allows you to resolve issues rather than just tolerate them.",
+            "Self-Promotion: You expect your work to speak for itself. Sometimes, you need to advocate for your accomplishments to ensure you receiving the opportunities you deserve."
+        ],
+        "workplacePreferences": [
+            "Quiet and Organized Environment: You appreciate a workspace free from excessive noise, interruption, and drama. You need peace to focus.",
+            "Clear Expectations and Procedures: You perform best when you have a clear job description, standard operating procedures, and defined goals.",
+            "Stability and Security: You value long-term employment and a stable organization. Layoffs, restructuring, or high turnover are particularly unsettling for you.",
+            "Specialized Roles: You enjoy becoming a subject matter expert in a specific niche where your deep knowledge is valued.",
+            "Limited Social Pressure: You prefer meaningful one-on-one interactions over large group socials or high-pressure networking.",
+            "Appreciation for Quality: You want to work for a manager who values accuracy and getting it right, rather than just 'shipping it' fast."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Stabilizing Specialist",
+            "description": "In a team, you are the rock. You provide the stability and consistency that allows the team to function reliably. You build the foundation the team rests on, ensuring that nothing falls through the cracks and that the background systems are functioning perfectly. You are often the 'memory' of the team, remembering the details and history that others forget. You act as a specialist, often taking on the complex, detailed work that others find tedious. However, you can sometimes slow the team down if you become too resistant to change or too focused on procedure. You are most effective when your need for preparation is respected, and when you are given the time and space to do deep work without constant interruption."
+        },
+        "careerAlignment": "Your SC profile is ideal for specialized, technical, or administrative roles requiring precision and patience. You excel in: Data Analysis and Database Management; Research and Development (Scientific/Technical); Technical Writing and Documentation; Accounting and Auditing; Pharmacy or specialized medical technology; Quality Control and Compliance; and Library/Information Science.",
+        "adaptabilityInsight": "Your growth opportunity is 'action amidst uncertainty'. You naturally want to wait until you have all the information. In the modern world, that moment rarely comes. Practice making small decisions with incomplete data. Also, work on your 'social visibility'—make a point to have one non-work conversation a day. It builds the relational capital you'll need when you have to push back on a bad idea later.",
+        "summaryProfile": "SC → Process Mastery + Stability\n\nYou are a reliable, detail-oriented professional who ensures operational excellence through patience and precision. Your ability to maintain high standards and create stable systems makes you the backbone of any quality-focused team. By learning to embrace change and speak up with more confidence, you become an irreplaceable expert and leader."
+    },
+    "CS": {
+        "behavioralOverview": "Your profile is that of a 'Precisionist' or 'Careful Analyst'. You lead with Conscientiousness (C) and support it with Steadiness (S), creating a personality that is thorough, meticulous, and deeply committed to quality. You prefer to work behind the scenes to ensure perfection. You are the person who reads the fine print, double-checks the calculations, and ensures that the project is risk-free. You are modest and unassuming, but your work speaks volumes through its accuracy and thoughtfulness. You value logic, order, and harmony, and you strive to avoid mistakes and interpersonal conflict.",
+        "coreStrengths": [
+            {
+                "title": "Meticulous Attention to Detail",
+                "desc": "Nothing escapes your notice. You have an innate ability to spot errors, inconsistencies, or potential problems that others miss completely."
+            },
+            {
+                "title": "Systems Thinking and Logic",
+                "desc": "You understand how parts fit into the whole. You are excellent at organizing complex information into logical categories and systems."
+            },
+            {
+                "title": "Cautious and Thorough Planning",
+                "desc": "You adhere to the adage 'measure twice, cut once.' You anticipate risks effectively and plan contingencies for every scenario."
+            },
+            {
+                "title": "Diplomatic Precision",
+                "desc": "You are polite, respectful, and adhere to protocol. You navigate organizations by following the rules and treating others with formal courtesy."
+            },
+            {
+                "title": "Objective Problem Solving",
+                "desc": "You solve problems based on data and facts. You remove emotion from the equation to find the most logical and correct solution."
+            },
+            {
+                "title": "Consistent Follow-Through",
+                "desc": "You are reliable and disciplined. If you say you will do something, it will be done, and it will be done correctly."
+            }
+        ],
+        "communicationApproach": [
+            {
+                "title": "Structured and Logical",
+                "desc": "You present information in a logical order, often starting with the background and facts before moving to the conclusion."
+            },
+            {
+                "title": "Validation-Seeking",
+                "desc": "You verify facts before stating them. You are hesitant to speak unless you are certain you are correct."
+            },
+            {
+                "title": "Formal and Private",
+                "desc": "You prefer professional, formal interactions and often choose one-on-one settings or written communication over large public forums."
+            },
+            {
+                "title": "Question-Based",
+                "desc": "You ask clarifying questions to ensure you fully understand the requirements before committing to an answer."
+            },
+            {
+                "title": "Written Documentation",
+                "desc": "You rely heavily on email, memos, and reports to ensure clarity and avoid the ambiguity of verbal conversation."
+            }
+        ],
+        "developmentOpportunities": [
+            "Decisiveness with Incomplete Info: You naturally want 100% of the data. Learning to trust your intuition and experience when data is incomplete is critical for leadership.",
+            "Addressing Conflict Directly: You may avoid uncomfortable conversations or hope they go away. Dealing with interpersonal issues directly prevents them from festering.",
+            "Speed vs. Perfection: You can be slow because you are being so careful. Recognizing when high speed is more valuable than high precision will make you more adaptable.",
+            "Flexibility with Rules: You may struggle if the rules change constantly or if you are asked to 'wing it'. Developing comfort with flexibility helps in agile environments.",
+            "Over-Critical Self-Talk: You are likely your own harshest critic. Learning to celebrate small wins and not beat yourself up over minor errors is healthy.",
+            "Sharing Thoughts Before Perfection: You might wait until an idea is perfect to share it. Sharing early drafts can get you valuable feedback sooner.",
+            "Connecting Emotionally: Your focus on facts can make you seem detached. Sharing a bit of your personal self builds trust with colleagues."
+        ],
+        "workplacePreferences": [
+            "Expertise-Driven Culture: You prefer environments that value depth of knowledge, credentials, and technical skill effectively.",
+            "Structured and Predictable: You want a clear job description, defined reporting lines, and a predictable workflow.",
+            "Quality-Focused: You take pride in your work and want to be in an organization that refuses to ship junk.",
+            "Private Work Environment: You need a quiet space where you can concentrate deeply without social distractions.",
+            "Objective Evaluation: You prefer performance reviews based on clear, measurable metrics rather than subjective opinions.",
+            "Low-Risk Environment: You are essentially risk-averse and prefer established companies with proven models over chaotic startups."
+        ],
+        "teamCollaborationStyle": {
+            "title": "The Quality Assurance Specialist",
+            "description": "On a team, you are the quality assurance specialist. You are the one who ensures that the team's output is flawless. You bring a sense of order to the team's planning and documentation. You encourage the team to slow down and think things through. While you may not be the loudest voice in the room, your input is often the most well-thought-out. You protect the team from embarrassment by catching errors before they go public. However, you need to guard against 'analysis paralysis' or becoming a bottleneck because you are double-checking everything. You are most effective when your teammates respect your need for accuracy and give you the time to do your best work, and when you trust them to handle the 'big picture' direction."
+        },
+        "careerAlignment": "Your CS profile fits roles requiring high precision, adherence to standards, and logical thinking. You excel in: Accounting and Finance (CFO/Controller); Engineering (detail-focused disciplines); Software Development and QA; Actuarial Science and Risk Analysis; Medical Research and Lab Work; Compliance and Regulatory Affairs; and Editorial/Proofreading.",
+        "adaptabilityInsight": "Your growth edge is 'imperfect action'. Try to launch something before you feel it's 100% ready. It will feel terrifying, but the feedback you get will be more valuable than the extra time spent polishing. Also, remember that relationships are 'fuzzy logic'—they don't follow a strict set of rules. Allow for some messiness in your human interactions; it's often where the real connection happens.",
+        "summaryProfile": "CS → Precision + Reliability\n\nYou are a meticulous, thoughtful professional who combines deep analysis with steady reliability. Your commitment to quality and getting things right makes you the gold standard for accuracy in your organization. By balancing your perfectionism with a bit more speed and risk-taking, you become a powerful force for excellence."
+    },
+    "traits": {
+        "D": {
+            "name": "Dominance",
+            "color": "#dc2626",
+            "desc": "Direct, firm, and results-oriented."
+        },
+        "I": {
+            "name": "Influence",
+            "color": "#eab308",
+            "desc": "Outgoing, enthusiastic, and optimistic."
+        },
+        "S": {
+            "name": "Steadiness",
+            "color": "#86efac",
+            "desc": "Even-tempered, accommodating, and patient."
+        },
+        "C": {
+            "name": "Conscientiousness",
+            "color": "#2563eb",
+            "desc": "Analytical, reserved, and precise."
+        }
+    },
+    "tagline": {
+        "D": "The Commander",
+        "I": "The Influencer",
+        "S": "The Supporter",
+        "C": "The Analyst",
+        "DI": "The Driver",
+        "ID": "The Promoter",
+        "DC": "The Architect",
+        "CD": "The Critic",
+        "IS": "The Harmonizer",
+        "SI": "The Relator",
+        "SC": "The Technician",
+        "CS": "The Practitioner"
+    }
+}

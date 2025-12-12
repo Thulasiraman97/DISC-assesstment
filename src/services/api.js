@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://d6277f581bf4.ngrok-free.app/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export const api = axios.create({
     baseURL: API_URL,
@@ -77,4 +77,14 @@ export const exportToXLSX = async (userId) => {
         responseType: 'blob'
     });
     return new Blob([response.data], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+};
+
+export const toggleResults = async (enabled, userId) => {
+    const response = await api.post(`/admin/settings/toggle-results?userId=${userId}`, { enabled });
+    return response.data;
+};
+
+export const getResultVisibility = async () => {
+    const response = await api.get('/admin/settings/results-status');
+    return response.data;
 };

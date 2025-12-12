@@ -1,7 +1,20 @@
+'use client';
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
+  const router = useRouter();
+
+  useEffect(() => {
+    const userId = localStorage.getItem('disc_user_id');
+    if (userId) {
+      router.push('/dashboard');
+    }
+  }, [router]);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 relative overflow-hidden bg-gradient-to-b from-white via-green-50 to-green-100">
       {/* Logo - Top Left */}

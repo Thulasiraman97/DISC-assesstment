@@ -14,6 +14,8 @@ export default function DashboardPage() {
     const [hasCompletedAssessment, setHasCompletedAssessment] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
 
+    const [resultsEnabled, setResultsEnabled] = useState(true);
+
     useEffect(() => {
         const userId = localStorage.getItem('disc_user_id');
         if (!userId) {
@@ -29,13 +31,18 @@ export default function DashboardPage() {
         // Check if user is admin and assessment status
         const fetchUserData = async () => {
             try {
-                const { getUserProfile, checkAssessmentStatus } = await import('../../services/api');
+                const { getUserProfile, checkAssessmentStatus, getResultVisibility } = await import('../../services/api');
                 const profile = await getUserProfile(userId);
                 setIsAdmin(profile.isAdmin || false);
 
                 // Check assessment completion status
                 const statusData = await checkAssessmentStatus(userId);
                 setHasCompletedAssessment(statusData.hasCompleted);
+
+                // Check results visibility settings
+                const settingsData = await getResultVisibility();
+                setResultsEnabled(settingsData.enabled);
+
             } catch (error) {
                 console.error('Error fetching user data:', error);
             } finally {
@@ -129,21 +136,36 @@ export default function DashboardPage() {
                                 <Sparkles size={36} fill="currentColor" />
                             </div>
 
-                            <h2 className="text-4xl font-bold mb-4 text-zinc-900 tracking-tight">Your Results Are Ready!</h2>
-                            <p className="text-zinc-500 leading-relaxed font-light text-lg max-w-md mb-10">
-                                You've completed your DISC assessment. View your personalized behavioral profile and insights.
-                            </p>
+                            {/* Result Visibility Logic */}
+                            {resultsEnabled ? (
+                                <>
+                                    <h2 className="text-4xl font-bold mb-4 text-zinc-900 tracking-tight">Your Results Are Ready!</h2>
+                                    <p className="text-zinc-500 leading-relaxed font-light text-lg max-w-md mb-10">
+                                        You've completed your DISC assessment. View your personalized behavioral profile and insights.
+                                    </p>
 
-                            <Link
-                                href="/results"
-                                className="group/btn relative px-10 py-5 bg-zinc-900 text-white font-bold text-xl rounded-2xl hover:scale-105 transition-transform shadow-xl hover:shadow-2xl"
-                            >
-                                <span className="relative z-10 flex items-center gap-2">
-                                    View Results
-                                    <Sparkles size={18} className="text-yellow-300" />
-                                </span>
-                                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-emerald-600 to-green-600 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 -z-0" />
-                            </Link>
+                                    <Link
+                                        href="/results"
+                                        className="group/btn relative px-10 py-5 bg-zinc-900 text-white font-bold text-xl rounded-2xl hover:scale-105 transition-transform shadow-xl hover:shadow-2xl"
+                                    >
+                                        <span className="relative z-10 flex items-center gap-2">
+                                            View Results
+                                            <Sparkles size={18} className="text-yellow-300" />
+                                        </span>
+                                        <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-emerald-600 to-green-600 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300 -z-0" />
+                                    </Link>
+                                </>
+                            ) : (
+                                <>
+                                    <h2 className="text-3xl font-bold mb-4 text-zinc-800 tracking-tight">Assessment Completed!</h2>
+                                    <p className="text-zinc-500 leading-relaxed font-light text-lg max-w-md mb-6">
+                                        Thank you for completing the assessment. Your results have been securely recorded.
+                                    </p>
+                                    <div className="p-4 bg-green-50 text-green-800 rounded-xl border border-green-100 font-medium max-w-md mx-auto">
+                                        Results will be released soon. Please check back later.
+                                    </div>
+                                </>
+                            )}
 
                             {/* Powered by Watermark */}
                             <div className="mt-8 flex flex-col items-center opacity-90 hover:opacity-100 transition-opacity">

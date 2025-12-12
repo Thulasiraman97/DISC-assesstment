@@ -10,6 +10,8 @@ import Toast from '../../components/ui/Toast';
 import Image from 'next/image';
 import { ThumbsUp, ThumbsDown } from 'lucide-react';
 import InstructionModal from '../../components/Assessment/InstructionModal';
+import Confetti from 'react-confetti';
+import { motion } from 'framer-motion';
 
 export default function AssessmentPage() {
     const router = useRouter();
@@ -37,11 +39,22 @@ export default function AssessmentPage() {
         message: ''
     });
 
+    const [showSuccess, setShowSuccess] = useState(false); // Success screen state
     const [showInstructions, setShowInstructions] = useState(false); // New state for instructions
 
     const isSubmitting = useRef(false);
 
     const ITEMS_PER_PAGE = 1; // Explicitly set to 1 for one question per page
+
+    // Helper to shuffle array
+    const shuffleArray = (array) => {
+        const newArray = [...array];
+        for (let i = newArray.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+        }
+        return newArray;
+    };
 
     // Check for authentication & Fetch Questions OR Restore State
     useEffect(() => {
@@ -93,7 +106,9 @@ export default function AssessmentPage() {
                 console.log('Starting new assessment...');
                 const data = await startAssessment(userId);
                 if (data && data.questions) {
-                    setQuestions(data.questions);
+                    // Shuffle ALL questions once at start
+                    const shuffledQuestions = shuffleArray(data.questions);
+                    setQuestions(shuffledQuestions);
                     setSetId(data.setId);
                     setCurrentPage(0);
 
@@ -222,7 +237,8 @@ export default function AssessmentPage() {
         return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
     };
 
-    // Redirect on completion
+    // Redirect on completion - OLD LOGIC REPLACED BY SUCCESS SCREEN REDIRECT
+    /* 
     useEffect(() => {
         if (isCompleted) {
             console.log('Assessment completed, redirecting to results...');
@@ -232,6 +248,17 @@ export default function AssessmentPage() {
             return () => clearTimeout(timer);
         }
     }, [isCompleted]);
+    */
+
+    // Redirect to Dashboard after Success Screen
+    useEffect(() => {
+        if (showSuccess) {
+            const timer = setTimeout(() => {
+                window.location.href = '/dashboard';
+            }, 5000); // 5 seconds delay for confetti and animation
+            return () => clearTimeout(timer);
+        }
+    }, [showSuccess]);
 
     const handleAnswer = (qId, type, selectionType) => {
         setAnswers(prev => {
@@ -321,6 +348,8 @@ export default function AssessmentPage() {
             localStorage.removeItem('disc_assessment_state');
 
             setIsCompleted(true);
+            setShowSuccess(true); // Trigger success screen
+            setLoading(false); // Enable rendering of success screen
         } catch (error) {
             console.error("Failed to submit", error);
             setModalConfig({
@@ -342,6 +371,63 @@ export default function AssessmentPage() {
                         {isCompleted ? 'Calculating Results...' : 'Loading Assessment...'}
                     </p>
                 </div>
+            </div>
+        );
+    }
+
+    // Success Screen
+    if (showSuccess) {
+        return (
+            <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-gradient-to-b from-white to-green-50 overflow-hidden">
+                <Confetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                    recycle={true}
+                    numberOfPieces={200}
+                />
+
+                <motion.div
+                    initial={{ scale: 0, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    transition={{ type: "spring", stiffness: 200, damping: 20 }}
+                    className="bg-white p-12 rounded-full shadow-2xl mb-8 flex items-center justify-center relative"
+                >
+                    <motion.svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100"
+                        height="100"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="text-green-500"
+                        initial={{ pathLength: 0 }}
+                        animate={{ pathLength: 1 }}
+                        transition={{ duration: 0.8, delay: 0.2, ease: "easeInOut" }}
+                    >
+                        <polyline points="20 6 9 17 4 12" />
+                    </motion.svg>
+                </motion.div>
+
+                <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.5 }}
+                    className="text-3xl md:text-5xl font-bold text-green-700 text-center max-w-2xl leading-tight"
+                >
+                    Congratulation! <br /> Assessment has been submitted
+                </motion.h1>
+
+                <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 1 }}
+                    className="mt-6 text-zinc-500 text-lg"
+                >
+                    Redirecting to dashboard...
+                </motion.p>
             </div>
         );
     }

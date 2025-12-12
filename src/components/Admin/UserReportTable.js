@@ -10,6 +10,41 @@ export default function UserReportTable({ users, onExport }) {
     const [filterStatus, setFilterStatus] = useState('all'); // all, completed, pending
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+    // Results Toggle State
+    const [resultsEnabled, setResultsEnabled] = useState(true);
+    const [toggling, setToggling] = useState(false);
+
+    // Import API
+    const { toggleResults, getResultVisibility } = require('../../services/api');
+    const { useEffect } = require('react');
+
+    useEffect(() => {
+        const fetchSettings = async () => {
+            try {
+                const data = await getResultVisibility();
+                setResultsEnabled(data.enabled);
+            } catch (err) {
+                console.error("Failed to fetch settings", err);
+            }
+        };
+        fetchSettings();
+    }, []);
+
+    const handleToggleResults = async () => {
+        try {
+            setToggling(true);
+            const userId = localStorage.getItem('disc_user_id');
+            const newState = !resultsEnabled;
+            await toggleResults(newState, userId);
+            setResultsEnabled(newState);
+        } catch (err) {
+            console.error("Failed to toggle results", err);
+            alert("Failed to update settings");
+        } finally {
+            setToggling(false);
+        }
+    };
+
     // Filter and sort users
     const filteredUsers = users
         .filter(user => {
@@ -76,19 +111,43 @@ export default function UserReportTable({ users, onExport }) {
 
     return (
         <div className="w-full">
-            {/* Header with stats */}
-            <div className="mb-6 grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="bg-white p-3 rounded-xl border border-zinc-200 shadow-sm">
-                    <div className="text-sm text-zinc-500 font-medium">Total Users</div>
-                    <div className="text-2xl font-bold text-zinc-900 mt-1">{users.length}</div>
+            {/* Header with stats and toggle */}
+            <div className="mb-6 flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
+                <div className="flex gap-4 w-full md:w-auto">
+                    <div className="bg-white p-3 rounded-xl border border-zinc-200 shadow-sm flex-1 md:flex-none min-w-[250px]">
+                        <div className="text-sm text-zinc-500 font-medium">Total Users</div>
+                        <div className="text-2xl font-bold text-zinc-900 mt-1">{users.length}</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-xl border border-green-200 shadow-sm flex-1 md:flex-none min-w-[250px]">
+                        <div className="text-sm text-green-600 font-medium">Completed</div>
+                        <div className="text-2xl font-bold text-green-700 mt-1">{completedCount}</div>
+                    </div>
+                    <div className="bg-white p-3 rounded-xl border border-orange-200 shadow-sm flex-1 md:flex-none min-w-[250px]">
+                        <div className="text-sm text-orange-600 font-medium">Pending</div>
+                        <div className="text-2xl font-bold text-orange-700 mt-1">{pendingCount}</div>
+                    </div>
                 </div>
-                <div className="bg-white p-3 rounded-xl border border-green-200 shadow-sm">
-                    <div className="text-sm text-green-600 font-medium">Completed</div>
-                    <div className="text-2xl font-bold text-green-700 mt-1">{completedCount}</div>
-                </div>
-                <div className="bg-white p-3 rounded-xl border border-orange-200 shadow-sm">
-                    <div className="text-sm text-orange-600 font-medium">Pending</div>
-                    <div className="text-2xl font-bold text-orange-700 mt-1">{pendingCount}</div>
+
+                {/* Result Visibility Toggle */}
+                <div className="bg-white p-3 rounded-xl border border-zinc-200 shadow-sm flex items-center gap-3">
+                    <span className="text-sm font-medium text-zinc-600">
+                        Result Visibility:
+                        <span className={`ml-1 font-bold ${resultsEnabled ? 'text-green-600' : 'text-zinc-500'}`}>
+                            {resultsEnabled ? 'Enabled' : 'Disabled'}
+                        </span>
+                    </span>
+                    <button
+                        onClick={handleToggleResults}
+                        disabled={toggling}
+                        className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 ${resultsEnabled ? 'bg-green-600' : 'bg-zinc-200'
+                            }`}
+                    >
+                        <span
+                            className={`${resultsEnabled ? 'translate-x-6' : 'translate-x-1'
+                                } inline-block h-4 w-4 transform rounded-full bg-white transition-transform`}
+                        />
+                    </button>
+                    {toggling && <span className="text-xs text-zinc-400 animate-pulse">Saving...</span>}
                 </div>
             </div>
 
@@ -287,12 +346,15 @@ export default function UserReportTable({ users, onExport }) {
                                 <th className="px-4 py-3 text-left text-xs font-bold text-zinc-600 uppercase tracking-wider cursor-pointer hover:bg-zinc-100" onClick={() => handleSort('completedAt')}>
                                     Completed {sortField === 'completedAt' && (sortOrder === 'asc' ? '↑' : '↓')}
                                 </th>
+                                <th className="px-4 py-3 text-center text-xs font-bold text-zinc-600 uppercase tracking-wider">
+                                    Report
+                                </th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-zinc-200">
                             {filteredUsers.length === 0 ? (
                                 <tr>
-                                    <td colSpan="7" className="px-4 py-8 text-center text-zinc-500">
+                                    <td colSpan="8" className="px-4 py-8 text-center text-zinc-500">
                                         No users found
                                     </td>
                                 </tr>
@@ -318,23 +380,32 @@ export default function UserReportTable({ users, onExport }) {
                                                 </span>
                                             )}
                                         </td>
-                                        <td className="px-4 py-3 text-sm">
+                                        <td className="px-4 py-3 text-sm text-center whitespace-nowrap">
                                             {user.discScores ? (
                                                 <div className="flex gap-2 justify-center">
-                                                    <span className="px-2 py-1 bg-red-100 text-red-700 rounded text-xs font-bold">D: {user.discScores.D}</span>
-                                                    <span className="px-2 py-1 bg-yellow-100 text-yellow-700 rounded text-xs font-bold">I: {user.discScores.I}</span>
-                                                    <span className="px-2 py-1 bg-green-100 text-green-700 rounded text-xs font-bold">S: {user.discScores.S}</span>
-                                                    <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-bold">C: {user.discScores.C}</span>
+                                                    <span className="px-3 py-1 bg-red-100 text-red-700 rounded text-xs font-bold ring-1 ring-red-200/50">
+                                                        D: {user.discScores.D} ({Math.round(user.percentages?.D || 0)}%)
+                                                    </span>
+                                                    <span className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded text-xs font-bold ring-1 ring-yellow-200/50">
+                                                        I: {user.discScores.I} ({Math.round(user.percentages?.I || 0)}%)
+                                                    </span>
+                                                    <span className="px-3 py-1 bg-green-100 text-green-700 rounded text-xs font-bold ring-1 ring-green-200/50">
+                                                        S: {user.discScores.S} ({Math.round(user.percentages?.S || 0)}%)
+                                                    </span>
+                                                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded text-xs font-bold ring-1 ring-blue-200/50">
+                                                        C: {user.discScores.C} ({Math.round(user.percentages?.C || 0)}%)
+                                                    </span>
                                                 </div>
                                             ) : (
                                                 <span className="text-zinc-400">-</span>
                                             )}
                                         </td>
-                                        <td className="px-4 py-3 text-sm">
+                                        <td className="px-4 py-3 text-sm font-medium whitespace-nowrap min-w-[200px]">
                                             {user.highestTrait ? (
-                                                <span className="px-3 py-1 bg-zinc-900 text-white rounded-full text-xs font-bold">
-                                                    {user.highestTrait}
-                                                </span>
+                                                <div className="flex flex-row items-center gap-1 text-zinc-800">
+                                                    <span>{user.highestTrait}</span>
+                                                    {user.secondaryTrait && <span className="text-zinc-500">/ {user.secondaryTrait}</span>}
+                                                </div>
                                             ) : (
                                                 <span className="text-zinc-400">-</span>
                                             )}
@@ -350,6 +421,23 @@ export default function UserReportTable({ users, onExport }) {
                                                 </div>
                                             ) : (
                                                 <span className="text-zinc-400">-</span>
+                                            )}
+                                        </td>
+                                        <td className="px-4 py-3 text-center">
+                                            {user.assessmentCompleted ? (
+                                                <a
+                                                    href={`/report/${user.userId || user._id}`}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center justify-center p-2 text-green-600 hover:bg-green-50 rounded-lg transition-colors"
+                                                    title="View Detailed Report"
+                                                >
+                                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                    </svg>
+                                                </a>
+                                            ) : (
+                                                <span className="text-zinc-300">-</span>
                                             )}
                                         </td>
                                     </tr>

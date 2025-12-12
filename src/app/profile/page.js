@@ -84,14 +84,24 @@ export default function ProfilePage() {
                 <Image
                     src="/logo-new.png"
                     alt="Inqisity Logo"
-                    width={180}
-                    height={54}
+                    width={120}
+                    height={36}
                     className="object-contain"
                 />
             </div>
 
-            {/* Logout - Top Right */}
-            <div className="absolute top-8 right-8 z-20">
+            {/* Top Right Actions: Watermark & Logout */}
+            <div className="absolute top-8 right-8 z-20 flex items-center gap-6">
+                {/* Powered by Watermark */}
+                <div className="flex flex-col items-center opacity-90 hover:opacity-100 transition-opacity">
+                    <span className="text-[10px] uppercase tracking-wider text-zinc-400 font-medium mb-0.5">Powered by</span>
+                    <img
+                        src="/powered-by.png"
+                        alt="Powered By Logo"
+                        className="h-5 object-contain animate-pulse"
+                    />
+                </div>
+
                 <button
                     onClick={handleLogout}
                     className="flex items-center gap-2 px-4 py-2 bg-white/80 hover:bg-red-50 text-zinc-600 hover:text-red-500 border border-green-200 hover:border-red-300 rounded-full transition-all backdrop-blur-sm shadow-sm"
@@ -107,10 +117,10 @@ export default function ProfilePage() {
                 <div className="absolute bottom-[-20%] left-[-10%] w-[600px] h-[600px] bg-cyan-200/20 rounded-full blur-[120px]" />
             </div>
 
-            <div className="z-10 w-full max-w-2xl">
+            <div className="z-10 w-full max-w-2xl mt-24">
                 <button
                     onClick={() => router.back()}
-                    className="mb-8 flex items-center gap-2 text-zinc-600 hover:text-green-700 transition-colors font-medium"
+                    className="mb-12 flex items-center gap-2 text-zinc-600 hover:text-green-700 transition-colors font-medium"
                 >
                     <ArrowLeft size={20} />
                     <span>Back to Dashboard</span>
