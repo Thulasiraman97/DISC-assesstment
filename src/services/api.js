@@ -1,11 +1,16 @@
 import axios from 'axios';
 
+<<<<<<< HEAD
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
+=======
+const API_URL = 'https://d0055380fc96.ngrok-free.app/api';
+>>>>>>> 4bafa0d9d481765de15c359b380ae99a55695a23
 
 export const api = axios.create({
     baseURL: API_URL,
     headers: {
         'Content-Type': 'application/json',
+        'ngrok-skip-browser-warning': 'true',
     },
 });
 
