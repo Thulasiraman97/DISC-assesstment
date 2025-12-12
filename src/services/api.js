@@ -1,10 +1,6 @@
 import axios from 'axios';
 
-<<<<<<< HEAD
-const API_URL = process.env.NEXT_PUBLIC_API_URL;
-=======
 const API_URL = 'https://546a1c8a8f89.ngrok-free.app/api';
->>>>>>> 4bafa0d9d481765de15c359b380ae99a55695a23
 
 export const api = axios.create({
     baseURL: API_URL,
